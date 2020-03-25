@@ -1,0 +1,27 @@
+{
+  "name": "zerolanddigital",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "global": "npm run start --prefix global",
+    "dev": "concurrently \"npm run server\" \"npm run global\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix global && npm run build -- prefix global"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "jspdf": "^1.5.3",
+    "nodemailer": "^6.4.5",
+    "nodemon": "^2.0.2",
+    "react-headroom": "^3.0.0",
+    "styled-components": "^5.0.1"
+  }
+}

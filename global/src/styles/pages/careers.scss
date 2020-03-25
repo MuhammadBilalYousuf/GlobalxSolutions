@@ -1,0 +1,53 @@
+// $font-main: 'Overpass', sans-serif;
+// $color-background: #191C27;
+// $color-card: #2A2D38;
+// $color-white: #ffffff;
+// $color-tab: #828A99;
+// $color-anchor: #3F80F3;
+// $default-font-size: 12px;
+
+// .card {
+//   position: relative;
+//   margin: 30px auto;
+//   max-width: 50%;
+//   background-color: $color-card;
+//   padding: 20px 17px;
+  
+//   h4 {
+//     margin-top: 0;
+//     margin-bottom: 20px;
+//   }
+// }
+
+// .tab {
+//   color: $color-tab;
+
+//   .tab-list {
+//     display: flex;
+//     padding-left: 0;
+//     border-bottom: 1px solid $color-tab;
+    
+//     li {
+//       position: relative;
+//       top: 1px;
+//       margin-right: 10px;
+//       max-width: 100px;
+//       flex-grow: 1;
+//       padding-bottom: 10px;
+//       cursor: pointer;
+      
+//       &[data-active="true"] {
+//         color: $color-anchor;
+//         border-bottom: 3px solid $color-anchor;
+//       }
+//     }
+//   }
+  
+//   .tab-content {
+//     padding-top: 20px;
+    
+//     p {
+//       margin-bottom: 10px;
+//     }
+//   }
+// }
