@@ -9,7 +9,7 @@
     "server": "nodemon index.js",
     "global": "npm run start --prefix global",
     "dev": "concurrently \"npm run server\" \"npm run global\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix global && npm run build -- prefix global"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix global && npm run build --prefix global"
   },
   "keywords": [],
   "author": "",
