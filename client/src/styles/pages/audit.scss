@@ -1,0 +1,136 @@
+ .row {
+      .case-details2 {
+        width: 50vw;
+        justify-content: center;
+        display: flex;
+        position: relative;
+        @media (max-width: 599px) {
+        width: 70%;
+        }
+        h4{
+          font-size: 3rem;
+          @media (max-width: 599px) {
+            font-size: 0.5rem;
+          }
+        }
+        h2{
+          font-size: 4rem;
+          @media (max-width: 599px) {
+            font-size: 1.5rem;
+          }
+        }
+      }
+   
+    }
+
+  #contactform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    z-index: 500;
+    width: 70%;
+    // width: 400px;
+    // height: 100vh;
+  }
+  
+  #contactform input,
+  #contactform textarea {
+    border: 0;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 17px;
+    background-color: transparent;
+    color: black;
+    font-weight: 200;
+    border: 1px solid #6AC4DB;
+  }
+  
+  #contactform input::placeholder,
+  #contactform textarea::placeholder {
+    color: black;
+    opacity: 0.8;
+  }
+  
+  #submit {
+    padding: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    // outline: 1px solid #6AC4DB;
+    outline-offset: -1px;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    font-weight: 200;
+    font-family: Futura;
+    font-size: 15px;
+    position: relative;
+  }
+  
+  #submit p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #update {
+    z-index: 2000;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    width: 96%;
+    margin: 5px;
+    height: 81%;
+    position: absolute;
+    font-size: 15px;
+  }
+  
+  #update p {
+    margin: 5;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #btn {
+    width: 150px;
+    border-radius: 0;
+    border: 0;
+    padding: 10px;
+    background-color: #6AC4DB;
+    border: 1px solid #00ffff;
+    color: white;
+    font-weight: 200;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  #btn:hover {
+    border-color: #fff;
+    transition: 0.5s;
+  }
+  
+  #rectwrap {
+    position: absolute;
+  }
+  
+  .siz {
+    font-size: 30px;
+  }
+  
+  h1 {
+    font-weight: 200;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .button2{
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #71d2ea, #5fb0c5);
+  }
+  

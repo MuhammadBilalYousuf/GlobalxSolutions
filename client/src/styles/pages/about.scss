@@ -1,0 +1,175 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-container {
+  width: 250px;
+  height: 260px;
+  -webkit-perspective: 800px;
+  perspective: 800px;
+  margin: 25px;
+  border-radius: 20%;
+}
+
+label.card {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transform-style: preserve-3d;
+  transform-style:         preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  transition: transform 1s;
+  cursor: pointer;
+  // border: 3px solid white;
+  border-radius: 5px;
+}
+
+label.card div {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  height: 80%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 30px;
+}
+
+label.card div img{
+  width: 90%;
+}
+
+.front {
+  // background: white;
+  border-radius: 30px;
+  background: #ebebeb;
+  box-shadow:  20px 20px 60px #c8c8c8, 
+               -20px -20px 60px #ffffff;
+  
+}
+
+.back {
+  background: #ffffff;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+/* ================================================================================
+                                 Checkbox Styles
+================================================================================ */
+
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* Or [id*='card']:checked ~ label.card  */
+input[type=checkbox]:checked ~ label.card {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+
+
+$black: #000000;
+$white: #fff;
+$yell: #ffdc7c;
+
+p {
+  font-size: 1rem;
+  // line-height: 24px;
+}
+
+.content ul {
+  padding: 90px 24px 0px;
+  list-style: none;
+}
+
+.item {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.item-title {
+  font-weight: bold;
+  font-size: 4rem;
+  @media (max-width: 599px) {
+    font-size: 2rem;
+  }
+}
+
+.item-description {
+  color: grey;
+}
+
+.separator {
+  margin: 30px auto;
+  border: 1px solid #6AC4DB;
+  width: 50%;
+}
+
+
+
+.sectionSecond {
+  background: $black;
+//   height: 700px;
+  padding: 60px 24px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  color: #fff;
+  position: relative;
+  @media (max-width: 599px) {
+    // margin-top: 600px;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    background: $white;
+    height: 600px;
+    width: 100px;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+  }
+  .inner {
+    position: relative;
+    top: 60px;
+    h3 {
+      margin: 8px 0;
+      opacity: 0;
+      font-size: 2rem;
+      font-weight: 900;
+    }
+    p {
+      opacity: 0;
+    }
+    .btn-row {
+      opacity: 0;
+      a {
+        background: $white;
+        width: 50%;
+        border-radius: 18px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 1.1rem;
+        color: #000000;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-top: 48px;
+      }
+    }
+  }
+}
+
+.ourclients{
+  text-align: center;
+  font-size: 2rem;
+}
