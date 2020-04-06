@@ -205,7 +205,7 @@ $default-font-size: 12px;
 // hover scrolling
 .pic {
   height: 250px;
-  border-radius: 16px;
+  border-radius: 16px 16px 0px 0px;
   overflow: hidden;
   margin: 0 auto;
   display: inline-block;
@@ -215,6 +215,7 @@ $default-font-size: 12px;
 
 .pic:hover img {
   animation: moveSlideshow 5s linear;
+  border-radius: 16px 16px 0px 0px;
 }
 
 @keyframes moveSlideshow {
@@ -231,3 +232,10 @@ $default-font-size: 12px;
   border-radius: 16px;
   transition: height .15s ease-in;
 }
+
+.carousel .slide img {
+  width: 100%;
+  vertical-align: top;
+  border-radius: 16px 16px 0px 0px;
+  border: 0;
+  }
