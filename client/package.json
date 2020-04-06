@@ -24,6 +24,7 @@
     "react-scroll": "^1.7.16",
     "react-transition-group": "^4.3.0",
     "react-use": "^13.27.0",
+    "reactautoplay": "^1.0.1",
     "reactstrap": "^8.4.1",
     "sass": "^1.26.3"
   },

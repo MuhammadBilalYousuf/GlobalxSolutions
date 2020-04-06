@@ -3,6 +3,7 @@ import "../styles/pages/works.scss";
 import { animateScroll as scroll} from 'react-scroll';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import VideoThumbnail from "reactautoplay";
 import leftDown from "../assets/circled-down-2.svg";
 import work from "../assets/work/work.jpg";
 import markhor from "../assets/work/software/markhor.jpg";
@@ -41,6 +42,7 @@ import nizamia_5 from "../assets/work/digital/nizamia/5.jpg";
 import nizamia_6 from "../assets/work/digital/nizamia/6.jpg";
 import nizamia_7 from "../assets/work/digital/nizamia/7.jpg";
 import nizamia_8 from "../assets/work/digital/nizamia/8.jpg";
+import video_1 from "../assets/work/production/COVID-19Precautions-ZerolandDigital.mp4";
 
 
 class Header extends React.Component {
@@ -436,49 +438,34 @@ const Digital = [
   }
 // End Digital Work
 // Digital Work
+const Video_1 = () => {
+  return (
+      <VideoThumbnail
+        title='Corona Virus Safety Prevention'
+        // preview='https://media1.giphy.com/media/llsb2HU9sKfK57pcnf/giphy480p.mp4'
+        preview={video_1}
+        badge='Client Name'
+        badgeBG='#EF798A'
+        message='Make sure to keep your hands clean 🔥🔥'
+        muted={false}
+        width={450} 
+        classname='customClassName' /> 
+  )
+}
+
 const Production = [
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    },
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    },
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    },
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    },
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    },
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    },
-    {
-      'name': 'Naya Nazimabad',
-      "img": work ,
-      // 'link': 'https://codepen.io/Kevin_barfleur/pen/PmxxWB',
-      'techno': 'Prodcution'
-    }
+  {
+    img: <Video_1 /> 
+  },
+  {
+    img: <Video_1 /> 
+  },
+  {
+    img: <Video_1 /> 
+  },
+  {
+    img: <Video_1 /> 
+  }
     ]
   class Productionwork extends React.Component {
     constructor () {
@@ -503,11 +490,9 @@ const Production = [
     }
   
     render () {
-      const cards = this.state.works.map((card, index) => <div className='card'><Productionworks
-        cardName={card.name}
+      const cards = this.state.works.map((card, index) => <div className='card'>
+        <Productionworks
         cardImg={card.img}
-        cardTechno={card.techno}
-        cardLink={card.link}
         key={index} /></div>)
   
       return (
@@ -523,18 +508,13 @@ const Production = [
   class Productionworks extends React.Component {
     render () {
       return (
-        <div>
-          <a href={this.props.cardLink}>
-          <img src={this.props.cardImg} alt={this.props.cardName} />
-            <div className='info'>
-              <h4> { this.props.cardName } </h4>
-              <p> { this.props.cardTechno } </p>
+            <div>
+            {this.props.cardImg}
             </div>
-          </a>
-        </div>
       )
     }
   }
+ 
 // End Digital Work
 
 
