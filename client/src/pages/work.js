@@ -443,7 +443,7 @@ const Video_1 = () => {
         title='Corona Virus Safety Prevention'
         // preview='https://media1.giphy.com/media/llsb2HU9sKfK57pcnf/giphy480p.mp4'
         // preview='https://media2.giphy.com/media/SwCRrlSUfdTd5SMlai/giphy480p.mp4'
-        preview='https://filebin.net/y9f1pmfs0q1066zb/COVID-19_Precautions-ZerolandDigital.mp4?t=c15ietzd'
+        preview='https://filebin.net/y9f1pmfs0q1066zb/COVID-19_Precautions-ZerolandDigital.mp4?t=vyx4nhqv'
         badge='Client Name'
         badgeBG='#EF798A'
         message='Make sure to keep your hands clean 🔥🔥'
