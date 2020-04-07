@@ -103,8 +103,13 @@ app.post('/api/forms', (req, res) => {
 // Serve static assets if in production
 if(process.env.NODE_ENV === 'production'){
     // Set static folder
-    // app.use(expressStaticGzip('client/build'));
-    app.use(express.static('client/build'));
+    // app.use(express.static('client/build', { maxAge: 2592000000 }));
+    app.use(express.static('client/build', {
+        maxAge: 86400000,
+        setHeaders: function(res, path) {
+            res.setHeader("Expires", new Date(Date.now() + 2592000000*30).toUTCString());
+          }
+    }))
 
     app.get('*', (req, res) => {
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
