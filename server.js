@@ -4,6 +4,13 @@ const nodemailer = require('nodemailer')
 const app = express()
 const path = require('path')
 
+
+app.get('*.js', function (req, res, next) {
+    req.url = req.url + '.gz';
+    res.set('Content-Encoding', 'gzip');
+    next();
+  });
+  
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
@@ -100,6 +107,7 @@ app.post('/api/forms', (req, res) => {
     })
   })
 
+  
 // Serve static assets if in production
 if(process.env.NODE_ENV === 'production'){
     // Set static folder

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { withRouter } from "react-router-dom";
-import { ReactComponent as UpArrow } from "../assets/up-arrow-circle.svg";
-import { openMenu, closeMenu } from "../animations/menuAnimations";
 import Headroom from "react-headroom";
+import { openMenu, closeMenu } from "../animations/menuAnimations";
+import { ReactComponent as UpArrow } from "../assets/up-arrow-circle.svg";
 
 // Define reducer
 const Header = ({ history, dimensions }) => {
