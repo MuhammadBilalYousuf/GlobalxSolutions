@@ -34,7 +34,9 @@ const Header = ({ history, dimensions }) => {
             {caseStudies.map(caseItem => (
                 <img
                   src={require(`../assets/${caseItem.img}.png`)}
-                  alt={caseItem.title}
+                  alt="Zeroland-Logo"
+                  id={caseItem.id}
+                  key={caseItem.id}
                 />
           ))}
             </NavLink>

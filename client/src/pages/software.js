@@ -28,7 +28,7 @@ import {
 	const ease = [0.6, 0.05, -0.01, 0.99];
 	let x = useSpring(0, { stiffness: 300, damping: 200, ease: ease });
 	const scale = useTransform(x, [-100, 0], [1.25, 1]);
-	const up = useTransform(x, [-100, 0], [-100, 0]);
+	// const up = useTransform(x, [-100, 0], [-100, 0]);
   
 	//state
 	const [state, setState] = useState(false);

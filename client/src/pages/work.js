@@ -5,7 +5,6 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import VideoThumbnail from "reactautoplay";
 import leftDown from "../assets/circled-down-2.svg";
-import work from "../assets/work/work.jpg";
 import markhor from "../assets/work/software/markhor.jpg";
 import foodlove from "../assets/work/software/foodlove.png";
 import propertyportal from "../assets/work/software/propertyportal.png";
@@ -214,12 +213,9 @@ class Softwareworks extends React.Component {
   render () {
     return (
       <div>
-        <a href={this.props.cardLink} target="_blank">
-        {/* <div class="card__image">
-          <img src={this.props.cardImg} alt={this.props.cardName} />
-          </div> */}
+        <a href={this.props.cardLink} target="_blank" rel="noopener noreferrer">
           <div class="pic">
-          <img src={this.props.cardImg} alt={this.props.cardName}/>
+          <img src={this.props.cardImg} alt="software"/>
           </div>
           <div className='info'>
             <h4> { this.props.cardName } </h4>
@@ -237,39 +233,39 @@ class Cafe21 extends React.Component {
       return (
           <Carousel>
               <div>
-                  <img src={cafe21_1} />
+                  <img src={cafe21_1} alt="cafe21"/>
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_2} />
+                  <img src={cafe21_2} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_3} />
+                  <img src={cafe21_3} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_4} />
+                  <img src={cafe21_4} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_5} />
+                  <img src={cafe21_5} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_6} />
+                  <img src={cafe21_6} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_7} />
+                  <img src={cafe21_7} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_8} />
+                  <img src={cafe21_8} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
               <div>
-                  <img src={cafe21_9} />
+                  <img src={cafe21_9} alt="cafe21" />
                   <p className="legend">Cafe21</p>
               </div>
           </Carousel>
@@ -281,27 +277,27 @@ class NayaNazmabad extends React.Component {
       return (
           <Carousel>
               <div>
-                  <img src={nayanazmabad_1} />
+                  <img src={nayanazmabad_1} alt="Naya Nazimabad" />
                   <p className="legend">Naya Nazimabad</p>
               </div>
               <div>
-                  <img src={nayanazmabad_2} />
+                  <img src={nayanazmabad_2} alt="Naya Nazimabad" />
                   <p className="legend">Naya Nazimabad</p>
               </div>
               <div>
-                  <img src={nayanazmabad_3} />
+                  <img src={nayanazmabad_3} alt="Naya Nazimabad" />
                   <p className="legend">Naya Nazimabad</p>
               </div>
               <div>
-                  <img src={nayanazmabad_4} />
+                  <img src={nayanazmabad_4} alt="Naya Nazimabad" />
                   <p className="legend">Naya Nazimabad</p>
               </div>
               <div>
-                  <img src={nayanazmabad_5} />
+                  <img src={nayanazmabad_5} alt="Naya Nazimabad" />
                   <p className="legend">Naya Nazimabad</p>
               </div>
               <div>
-                  <img src={nayanazmabad_6} />
+                  <img src={nayanazmabad_6} alt="Naya Nazimabad" />
                   <p className="legend">Naya Nazimabad</p>
               </div>
           </Carousel>
@@ -313,19 +309,19 @@ class CyberTrack extends React.Component {
       return (
           <Carousel>
               <div>
-                  <img src={cybertrack_1} />
+                  <img src={cybertrack_1} alt="Cyber Track" />
                   <p className="legend">Cyber Track</p>
               </div>
               <div>
-                  <img src={cybertrack_2} />
+                  <img src={cybertrack_2} alt="Cyber Track" />
                   <p className="legend">Cyber Track</p>
               </div>
               <div>
-                  <img src={cybertrack_3} />
+                  <img src={cybertrack_3} alt="Cyber Track" />
                   <p className="legend">Cyber Track</p>
               </div>
               <div>
-                  <img src={cybertrack_4} />
+                  <img src={cybertrack_4} alt="Cyber Track" />
                   <p className="legend">Cyber Track</p>
               </div>
           </Carousel>
@@ -337,35 +333,35 @@ class Nizamia extends React.Component {
       return (
           <Carousel>
               <div>
-                  <img src={nizamia_1} />
+                  <img src={nizamia_1} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_2} />
+                  <img src={nizamia_2} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_3} />
+                  <img src={nizamia_3} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_4} />
+                  <img src={nizamia_4} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_5} />
+                  <img src={nizamia_5} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_6} />
+                  <img src={nizamia_6} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_7} />
+                  <img src={nizamia_7} alt="Nizamia" />
                   <p className="legend">Nizamia</p>
               </div>
               <div>
-                  <img src={nizamia_8} />
+                  <img src={nizamia_8} alt="Nizamia" />
                   <p className="legend">Cyber Track</p>
               </div>
           </Carousel>
@@ -437,7 +433,7 @@ const Digital = [
 // End Digital Work
 // Digital Work
 
-const Video_1 = () => {
+const VIDEO_1 = () => {
   return (
       <VideoThumbnail
         title='Corona Virus Safety Prevention'
@@ -448,23 +444,23 @@ const Video_1 = () => {
         badgeBG='#EF798A'
         message='Make sure to keep your hands clean 🔥🔥'
         muted={false}
-        width={450} 
+        // width={450} 
         classname='customClassName' /> 
   )
 }
 
 const Production = [
   {
-    img: <Video_1 /> 
+    img: <VIDEO_1 /> 
   },
   {
-    img: <Video_1 /> 
+    img: <VIDEO_1 /> 
   },
   {
-    img: <Video_1 /> 
+    img: <VIDEO_1 /> 
   },
   {
-    img: <Video_1 /> 
+    img: <VIDEO_1 /> 
   }
     ]
   class Productionwork extends React.Component {
@@ -490,7 +486,8 @@ const Production = [
     }
   
     render () {
-      const cards = this.state.works.map((card, index) => <div className='card'>
+      const cards = this.state.works.map((card, index) => 
+      <div className='card2'>
         <Productionworks
         cardImg={card.img}
         key={index} /></div>)

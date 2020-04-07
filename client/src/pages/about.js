@@ -37,12 +37,12 @@ const About = () => {
   
       this.state = {
         cards: [
-          {id: 'card-1', title: roar},
+          {id: 'card-1', title: cafe021},
           {id: 'card-2', title: cts},
           {id: 'card-3', title: go},
           {id: 'card-4', title: pulse},
           {id: 'card-5', title: bawany},
-          {id: 'card-6', title: cafe021},
+          {id: 'card-6', title: roar},
         ]
       }
     }
@@ -53,7 +53,7 @@ const About = () => {
           {
             this.state.cards.map(card => {
               return (
-                 <Card className="card-logo" key={card.id} id={card.id} title={<img src={card.title} alt="client logo"/>}/>
+                 <Card className="card-logo" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
               )
             })
           }

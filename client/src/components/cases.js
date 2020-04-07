@@ -33,7 +33,7 @@ const Cases = () => {
       <div className='container-fluid'>
         <div className='row'>
           {caseStudies.map(caseItem => (
-                 <Link scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center'})} to={caseItem.href}>
+                 <Link scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center'})} to={caseItem.href} key={caseItem.id}>
             <div className='case' key={caseItem.id}>
               <div className='case-details'>
                 <span>{caseItem.subtitle}</span>
