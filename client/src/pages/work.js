@@ -444,7 +444,7 @@ const VIDEO_1 = () => {
         badgeBG='#EF798A'
         message='Make sure to keep your hands clean 🔥🔥'
         muted={false}
-        // width={450} 
+        width= '100%' 
         classname='customClassName' /> 
   )
 }

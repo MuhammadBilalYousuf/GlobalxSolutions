@@ -3,7 +3,9 @@ const bodyParser = require('body-parser')
 const nodemailer = require('nodemailer')
 const app = express()
 const path = require('path')
+const compression = require('compression')
 
+app.use(compression());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 
