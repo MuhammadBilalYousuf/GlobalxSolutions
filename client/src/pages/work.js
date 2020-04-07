@@ -42,8 +42,6 @@ import nizamia_5 from "../assets/work/digital/nizamia/5.jpg";
 import nizamia_6 from "../assets/work/digital/nizamia/6.jpg";
 import nizamia_7 from "../assets/work/digital/nizamia/7.jpg";
 import nizamia_8 from "../assets/work/digital/nizamia/8.jpg";
-import video_1 from "../assets/work/production/COVID-19Precautions-ZerolandDigital.mp4";
-
 
 class Header extends React.Component {
   constructor () {
@@ -438,12 +436,14 @@ const Digital = [
   }
 // End Digital Work
 // Digital Work
+
 const Video_1 = () => {
   return (
       <VideoThumbnail
         title='Corona Virus Safety Prevention'
         // preview='https://media1.giphy.com/media/llsb2HU9sKfK57pcnf/giphy480p.mp4'
-        preview={video_1}
+        // preview='https://media2.giphy.com/media/SwCRrlSUfdTd5SMlai/giphy480p.mp4'
+        preview='https://filebin.net/y9f1pmfs0q1066zb/COVID-19_Precautions-ZerolandDigital.mp4?t=c15ietzd'
         badge='Client Name'
         badgeBG='#EF798A'
         message='Make sure to keep your hands clean 🔥🔥'
