@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const caseStudies = [
   {
     id: 1,
-    href: '/services#software',
+    href: '/software',
     title: "SOFTWARE HOUSE",
     subtitle: "Our Software team love to build something unique for Scalable Web and Mobile Applications, perform tasks with cross-platform programming languages along with agile scrum process.",
     img: [
@@ -15,7 +15,7 @@ const caseStudies = [
     id: 2,
     href: '/services#digital',
     title: "DIGITAL HOUSE",
-    subtitle: "Our digital team possess broader experience in re-shaping and transforming products into digital frames, your brand’s marketing from bottom to top",
+    subtitle: "Our digital team possess broader experience in re-shaping and transforming products into digital frames, your brand’s marketing from bottom to top.",
     img: "digital"
   },
   {

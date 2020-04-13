@@ -1,21 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef  } from 'react';
+import gsap from "gsap";
+import { useIntersection } from "react-use";
 import "../styles/pages/software.scss";
-import nodejs from "../assets/node-js.svg";
-import reactjs from "../assets/react.svg";
-import angularjs from "../assets/angular.svg";
-import html from "../assets/html5.svg";
-import css from "../assets/css.svg";
-import python from "../assets/python.svg";
-import mongodb from "../assets/mongo_db.svg";
-import postgresql from "../assets/postgre_sql.svg";
-import wordpress from "../assets/wordpress.svg";
-import magento from "../assets/magento.svg";
-import opencart from "../assets/opencart.svg";
-import net from "../assets/net.svg";
-import php from "../assets/php.svg";
-import sql from "../assets/sql.svg";
-import mysql from "../assets/mysql.svg";
-
+import { HashLink as Link } from 'react-router-hash-link';
 import ProductImage from "../assets/software/pro.png";
 
 import {
@@ -39,19 +26,55 @@ import {
 		x.get() > -100 ? setState(false) : setState(true);
 	  });
 	}, [x]);
-  
+ 
+	
+
+	  // Ref for our element
+	  const sectionRef = useRef(null);
+	  // All the ref to be observed
+	  const intersection = useIntersection(sectionRef, {
+		root: null,
+		rootMargin: "0px",
+		threshold: 0.2
+	  });
+	
+	  // Animation for fading in
+	  const fadeIn = element => {
+		gsap.to(element, 1, {
+		  opacity: 1,
+		  y: -60,
+		  ease: "power4.out",
+		  stagger: {
+			amount: 0.3
+		  }
+		});
+	  };
+	  // Animation for fading out
+	  const fadeOut = element => {
+		gsap.to(element, 1, {
+		  opacity: 0,
+		  y: -20,
+		  ease: "power4.out"
+		});
+	  };
+	    // checking to see when the vieport is visible to the user
+  intersection && intersection.intersectionRatio < 0.2
+  ? fadeOut(".fadeIn")
+  : fadeIn(".fadeIn");
 	return (
 	<div className='product'>
-   		<div className="page">
+		<div className="page">
 		<div className="container">
       		<div className="row">
-      		<section className="career-heading">
-            <h2 className="item-title">We develop high-tech Web solutions for Big & Small scale businesses</h2>
+			  <section className="career-heading">
+			<p className="item-depart">Zeroland Software House</p>
+            <h2 className="item-title">ABOUT US</h2>
             <p className="item-description">
-				{/* We have a vast experience in developing solutions for Web Industry. We successfully work with Artificial Intelligence, Big Data, Machine Learning, IoT, VR / AR in a low-cost. It’s the best way to start prototyping
-				and developing your next application with us. */}
-				We have a vast experience in developing solutions for Web Industry. We successfully work with Artificial Intelligence, Big Data, Machine Learning, IoT, ERP, CRM, POS in a low-cost. It’s the best way to start prototyping
-				and developing your next web application with us.
+			Zeroland Software house is a team of young and passionate software engineers having different exposure of software development industry. We provide cutting edge software solutions to all size of businesses. We have helped 60 plus companies and enterprises clients worldwide in the last two years. 
+		    </p>
+            <h2 className="item-title">OUR TEAM</h2>
+            <p className="item-description">
+			We are a skilled team of professionals in the field of software development. Each department possesses experienced and specified team to deliver the services. With the combination of technology, know-how and great communication and creative ideas, we are able to provide complete solutions under one roof for our esteemed clients. 
 		    </p>
       		</section>
       		</div>
@@ -67,80 +90,39 @@ import {
 			  <img src={ProductImage} alt='product' />
 			</motion.div>
 		  </div>
+		<div className="page">
+		<div className="container">
+      		<div className="row">
+      		<section className="career-heading">
+            <h2 className="item-title">We develop high-tech Web solutions for Big & Small scale businesses</h2>
+            <p className="item-description">
+				We build everything around "People". We are passionate for work / life balance. We all love programming and are addicted to new technologies.
+				We have a vast experience in developing solutions for Web Industry. We successfully work with Artificial Intelligence, Big Data, Machine Learning, IoT, ERP, CRM, POS in a low-cost. It’s the best way to start prototyping
+				and developing your next web application with us.
+		    </p>
+            <p className="item-description">
+			We live and breathe in programming!
+			</p>
+      		</section>
+      		</div>
+    	</div>
+		<div className='sectionSecond'>
+        <div ref={sectionRef} className='inner'>
+          <p className='fadeIn'>
+		  Your ideas are turned into a reality by a process of examining your problem and finding a correct solution. We build highly affordable custom software for large and small companies. By applying modern design principles, in conjunction with the latest in cloud, mobile, and desktop technologies Assurance for highly affordable custom software for all type of companies with modern design principles is our utmost priority, and ultimately the result is the tailored solutions that connect co-workers with each other and companies with their customers. 
+          </p>
+          <div className='btn-row fadeIn'>
+			  <Link scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center'})} to="/services#software" key="/services#software">
+			  WHAT WE OFFER AT OUR SOFTWARE HOUSE
+			  </Link>
+          </div>
+        </div>
+      	</div>
+		</div>
 	</div>
 	);
   };
 
-const timelineData = [
-    {
-		text: [
-			<img src={nodejs} alt="nodejs"/>, ' NodeJs', <br></br> , 
-			<img src={net} alt="net"/>, ' .Net', <br></br> ,
-			<img src={php} alt="php"/>, ' Php', <br></br> , 
-			<img src={python} alt="python"/>, ' Python' , <br></br> , 
-			  ],
-        category: {
-			tag: 'Server Platforms',
-			color: '#6AC4DB'
-		}
-    },
-    {
-		text: [
-			' ReactJs', <img src={reactjs} alt="reactjs"/>, <br></br> , 
-			' AngularJs' , <img src={angularjs} alt="angularjs"/>, <br></br> , 
-			' Html5' , <img src={html} alt="html5"/>, <br></br> , 
-			' Css3' , <img src={css} alt="css3"/>, <br></br> , 
-			  ],
-        category: {
-			tag: 'Frontend Platforms',
-			color: '#418EEA'
-		}
-	},
-	{
-		text: [
-			<img src={wordpress} alt="wordpress"/>, ' WordPress', <br></br> , 
-			<img src={magento} alt="magento"/>, ' Magento', <br></br> , 
-			<img src={opencart} alt="opencart"/>, ' Opencart' , <br></br> , 
-			  ],
-        category: {
-			tag: 'CMS Platforms',
-			color: '#ee0e23'
-		}
-	},
-	{
-		text: [
-			'MongoDB', <img src={mongodb} alt="mongodb"/>, <br></br> , 
-			'Sql' ,<img src={sql} alt="sql"/>, <br></br> , 
-			'MySql' ,<img src={mysql} alt="mysql"/>, <br></br> , 
-			'PostgreSql' ,<img src={postgresql} alt="postgresql"/>, 
-			  ],
-        category: {
-			tag: 'Database Platforms',
-			color: '#018f69'
-		}
-    }
-]
-
-const TimelineItem = ({ data }) => (
-    <div className="timeline-item">
-        <div className="timeline-item-content">
-            <span className="tag" style={{ background: data.category.color }}>
-                {data.category.tag}
-            </span>
-            <p>{data.text}</p>
-            <span className="circle" />
-        </div>
-    </div>
-);
-
-const Timeline = () =>
-    timelineData.length > 0 && (
-        <div className="timeline-container ">
-            {timelineData.map((data, idx) => (
-                <TimelineItem data={data} key={idx} />
-            ))}
-        </div>
-    );
 
 const App = () => <>
     <br></br>
@@ -148,20 +130,6 @@ const App = () => <>
 	<br></br>
 	<Product />
 	<br></br>
-	<section className="career-heading">
-      <h2 className="font-center-title">
-        Platforms we use
-      </h2> 
-      <p className="font-center">
-      	We provide 360 degree solutions.
-        <br></br>
-		We give your project the ultimate platform
-        <br></br>
-		it needs to be scalable and successful.
-      </p>
-	  </section>
-     <br></br>
-	<Timeline />
 </>;
 
 export default App;

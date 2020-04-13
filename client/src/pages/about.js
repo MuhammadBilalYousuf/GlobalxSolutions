@@ -105,9 +105,13 @@ const About = () => {
           <div>
             <p className="item-title">Who We Are</p>
             <p className="item-description">
-            Zeroland was established with the aim of providing state-of-art and the latest digital marketing and production solutions under one umbrella. Having 10 years of experience working at ATL, TTL and BTL levels, the founder vowed to go beyond the traditional marketing modus of Operandi and challenge the national and international boundaries to provide media production, digital marketing and IT services.
-Zeroland team of 40+ members possess rich experience in their respective fields and the team has accomplished hundreds of local and international projects of multiple domains.
-We are living in a rapidly changing environment and it is a cumbersome task for the companies like us to keep abreast ourselves of the latest clientele demand along with the modern technology, and we love to embrace transformations because we transform the brands digitally.
+            Zeroland was established with the aim of providing state-of-art and the latest technological services in the shape of software production services, digital marketing and video production solutions under one umbrella. Having 10 years of experience in providing solutions to business organizations, the founder vowed to go beyond the traditional marketing modus of Operandi and challenge the national and international boundaries to provide media production, digital marketing and software productions services.
+            </p>
+            <p className="item-description">
+            Zeroland team of 40+ members possess rich experience in their respective fields and the team has accomplished hundreds of local and international projects of multiple domains.
+            </p>
+            <p className="item-description">
+            We are living in a rapidly changing environment and it is a cumbersome task for the companies like us to keep abreast ourselves of the latest clientele demand along with the modern technology and we love to embrace transformations because we transform the brands into modern technology. 
             </p>
           </div>
         </li>
@@ -121,11 +125,11 @@ We are living in a rapidly changing environment and it is a cumbersome task for 
         <div ref={sectionRef} className='inner'>
           <h3 className='fadeIn'>Our Mission</h3>
           <p className='fadeIn'>
-          Our mission is to build the brands and empower the existing brands by originating and executing innovative and effective integrated brand marketing plans.
+          To build the brands and empower them with the cutting-edge technology by origination and executing innovative and the market demanded software, effective and integrated brand marketing plans with the production of the first-rate quality video content.
           </p>
           <h3 className='fadeIn'>Our Vision</h3>
           <p className='fadeIn'>
-          To be the leading digital marketing and media agency by providing all digital solutions to local and global clients.
+          To be the top innovative technology house encompassing the wings of software production, digital marketing and media agency by providing 360-degree solutions to a business organization across the globe.
           </p>
           <div className='btn-row fadeIn'>
             <a href='approach'>Work with us</a>
