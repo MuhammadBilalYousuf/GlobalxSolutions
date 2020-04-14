@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import "../styles/pages/web-design.scss";
-import javascript from "../assets/javascript.svg";
-import reactjs from "../assets/react.svg";
-import angularjs from "../assets/angular.svg";
-import html from "../assets/html5.svg";
-import css from "../assets/css.svg";
-import wordpress from "../assets/wordpress.svg";
+import "../styles/pages/ecommerce.scss";
+import magento from "../assets/magento.svg";
+import opencart from "../assets/opencart.svg";
+import shopify from "../assets/shopify.svg";
+import woocommerce from "../assets/woocommerce.svg";
 import drupal from "../assets/drupal.svg";
-import joomla from "../assets/joomla.svg";
 import ProductImage from "../assets/software/pro.png";
 import DownArrow from "../assets/down-arrow.svg";
 import { motion, useSpring, useTransform } from "framer-motion";
@@ -36,19 +33,19 @@ const Product = () => {
 		<div className="container">
       		<div className="row">
 			<section className="career-heading">
-            <h2 className="item-title">WEB DESIGN & DEVELOPMENT</h2>
+            <h2 className="item-title">Ecommerce Development</h2>
             <p className="item-description">
 				<ul>
 					<li className="item-mini-title">
-					CMS/CUSTOM <img src={DownArrow} alt="DownArrow"/>
+					OPTIMIZED ECOMMERCE ENGINES <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					<li className="item-mini-title">
-					WEBSITE DEVELOPMENT <img src={DownArrow} alt="DownArrow"/>
+					ECOMMERCE WEB CART <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					<li className="item-mini-title">
-					INTERFACE DESIGN & WEB PROTOTYPING <img src={DownArrow} alt="DownArrow"/>
+					PLUGIN DEVELOPMENT <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 				</ul>
@@ -74,25 +71,22 @@ const Product = () => {
 const timelineData = [
 	{
 		text: [
-			<img src={wordpress} alt="wordpress"/>, ' WordPress', <br></br> , 
-			<img src={joomla} alt="joomla"/>, ' Joomla', <br></br> , 
-			<img src={drupal} alt="drupal"/>, ' Drupal' , <br></br> , 
+			<img src={magento} alt="magento"/>, ' Magento', <br></br> , 
+			<img src={opencart} alt="opencart"/>, ' Opencart', <br></br> , 
+			<img src={shopify} alt="shopify"/>, ' Shopify' ,
 			  ],
         category: {
-			tag: 'CMS Platforms',
+			tag: 'Platforms',
 			color: '#ee0e23'
 		}
 	},
     {
 		text: [
-			' Javascript' , <img src={javascript} alt="javascript"/>, <br></br> , 
-			' ReactJs' , <img src={reactjs} alt="reactjs"/>, <br></br> , 
-			' AngularJs' , <img src={angularjs} alt="angularjs"/>, <br></br> , 
-			' Html5' , <img src={html} alt="html5"/>, <br></br> , 
-			' Css3' , <img src={css} alt="css3"/>, <br></br> , 
+			' Woocommerce' , <img src={woocommerce} alt="woocommerce"/>, <br></br> , 
+			' Drupal Commerce' , <img src={drupal} alt="drupal"/>, <br></br> , 
 			  ],
         category: {
-			tag: 'Frontend Platforms',
+			tag: 'Platforms',
 			color: '#418EEA'
 		}
 	}

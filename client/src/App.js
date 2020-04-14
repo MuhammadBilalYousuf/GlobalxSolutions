@@ -16,6 +16,9 @@ import SoftwareDevelopment from "./pages/software-development";
 import MobileApplication from "./pages/mobile-application";
 import WebDesign from "./pages/web-design";
 import Ui from "./pages/ui-ux";
+import Ecommerce from "./pages/ecommerce";
+import ItServices from "./pages/it-services";
+import Startup from "./pages/startup";
 import Digital from "./pages/digital";
 import Production from "./pages/production";
 import Demo from "./pages/demo";
@@ -33,6 +36,9 @@ const routes = [
   { path: "/mobile-application", name: "mobileapplication", Component: MobileApplication },
   { path: "/web-design", name: "webdesign", Component: WebDesign },
   { path: "/ui-ux", name: "ui", Component: Ui },
+  { path: "/ecommerce", name: "ecommerce", Component: Ecommerce },
+  { path: "/it-services", name: "itservices", Component: ItServices },
+  { path: "/startup", name: "startup", Component: Startup },
   { path: "/digital", name: "digital", Component: Digital },
   { path: "/production", name: "production", Component: Production },
   { path: "/demo", name: "demo", Component: Demo },

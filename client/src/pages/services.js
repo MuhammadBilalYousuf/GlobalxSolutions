@@ -36,19 +36,19 @@ const Software = [
     "title": "E-COMMERCE DEVELOPMENT",
     "text": "We offer the latest modes of E-commerce development. Due to rise in the demand of E-commerce stores, every client desires visibility, attention, traffic and ultimately sales and revenue from his E-commerce website. At each step of this process, we support our Zeroland’s experienced team has produced a long list of highly attractive E-commerce sites.",
     "image": software,
-    "link": '/software-devlopment'
+    "link": '/ecommerce'
   },
   {
     "title": "IT CONSULTING SERVICES",
     "text": "The creative minds at Zeroland use their expertise and enrich tech background to build up a detailed IT strategy for a digital transformation organizations as per your targets. Zeroland will help you in automating and digitalizing operations, upgrading the software portfolio, and execute the cutting edge technologies with experienced hands. ",
     "image": software,
-    "link": '/software-devlopment'
+    "link": '/it-services'
   },
   {
     "title": "START UP",
     "text": "WE HELP & ELEVATE STARTUPS! Let us help you transform your ideas into innovative solutions for your growing business needs. We believe in collaborative approach so as to groom the entrepreneurs throughout their startup journey and further enhance their business models and refine their monetization Model.",
     "image": software,
-    "link": '/software-devlopment'
+    "link": '/startup'
   }
 ]
   // End Software Services

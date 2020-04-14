@@ -40,15 +40,15 @@ const Product = () => {
             <p className="item-description">
 				<ul>
 					<li className="item-mini-title">
-					AGILE SOFTWARE DEVELOPMENT <img src={DownArrow}/>
+					AGILE SOFTWARE DEVELOPMENT <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					<li className="item-mini-title">
-					CUSTOM SOFTWARE SOLUTIONS <img src={DownArrow}/>
+					CUSTOM SOFTWARE SOLUTIONS <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					<li className="item-mini-title">
-					MANAGED SERVICES & DEVOPS <img src={DownArrow}/>
+					MANAGED SERVICES & DEVOPS <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 				</ul>

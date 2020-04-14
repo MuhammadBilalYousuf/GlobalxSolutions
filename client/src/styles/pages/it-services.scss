@@ -60,3 +60,35 @@ $white: #ffffff;
   color: gray;
   font-size: 1.5rem;
 }
+
+
+.StyledContainer{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: auto;
+  max-width: 1400px;
+  padding:20px;
+}
+.StyledCard{
+  box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 4px;
+  display:flex;
+  flex-flow: column wrap;
+  background-color:white;
+  h2 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: gray;
+    margin: 0;
+  }
+  p {
+    font-size: 1.4rem;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  &.three {
+    grid-column: span 3;
+  }
+}

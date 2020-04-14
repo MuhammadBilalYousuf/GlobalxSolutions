@@ -1,22 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import "../styles/pages/mobile-application.scss";
-import nodejs from "../assets/node-js.svg";
-import reactjs from "../assets/react.svg";
-import angularjs from "../assets/angular.svg";
-import html from "../assets/html5.svg";
-import css from "../assets/css.svg";
-import python from "../assets/python.svg";
 import mongodb from "../assets/mongo_db.svg";
 import postgresql from "../assets/postgre_sql.svg";
-import wordpress from "../assets/wordpress.svg";
-import magento from "../assets/magento.svg";
-import opencart from "../assets/opencart.svg";
-import net from "../assets/net.svg";
-import php from "../assets/php.svg";
 import sql from "../assets/sql.svg";
 import mysql from "../assets/mysql.svg";
 import xcode from "../assets/xcode.svg";
 import androidstudio from "../assets/android.svg";
+import firebase from "../assets/firebase.svg";
 import reactnative from "../assets/react-native.svg"
 import ProductImage from "../assets/software/pro.png";
 import DownArrow from "../assets/down-arrow.svg";
@@ -50,15 +40,15 @@ const Product = () => {
             <p className="item-description">
 				<ul>
 					<li className="item-mini-title">
-					IOS APPS SERVICE <img src={DownArrow}/>
+					IOS APPS SERVICE <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					<li className="item-mini-title">
-					ANDROID APP SERVICE <img src={DownArrow}/>
+					ANDROID APP SERVICE <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 					<li className="item-mini-title">
-					REACT NATIVE APP SERVICE <img src={DownArrow}/>
+					REACT NATIVE APP SERVICE <img src={DownArrow} alt="DownArrow"/>
 					</li>
 					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
 				</ul>
@@ -98,7 +88,8 @@ const timelineData = [
 			'MongoDB', <img src={mongodb} alt="mongodb"/>, <br></br> , 
 			'Sql' ,<img src={sql} alt="sql"/>, <br></br> , 
 			'MySql' ,<img src={mysql} alt="mysql"/>, <br></br> , 
-			'PostgreSql' ,<img src={postgresql} alt="postgresql"/>, 
+			'PostgreSql' ,<img src={postgresql} alt="postgresql"/>, <br></br> , 
+			'Firebase' ,<img src={firebase} alt="firebase"/>, 
 			  ],
         category: {
 			tag: 'Database Platforms',
