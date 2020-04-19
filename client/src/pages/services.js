@@ -55,48 +55,98 @@ const Software = [
   // Digital Services
 const Digital = [
     {
-      "title": "Web Design & Development",
-      "text": "Being the leading web designing and development agency, Zeroland team believes that it has to deliver a meaningful, user-friendly and interactive website for every client keeping in the notice the principles and demands of the client regarding the generation of leads, increment in sales and traffic divert on the website.",
-      "image": digital 
+      "title": "VIDEO & MOTION GRAPHICS",
+      "text": "Sometimes it takes something different to create the best – and our team of experts use animation and motion graphics to help tell your story. If your product is complicated or your complete story needs pictorial depiction to square out. At Zeroland digital, we will produce something from a brief motion video to a 30-minute long motion video.",
+      "image": digital,
+      "link": '/video-motion-graphics'
     },
     {
-      "title": "CMS & Web Dashboard Development",
-      "text": "At Zeroland digital, we offer service of managing new content on your website and in this regard, our team is equipped with the latest tools of Content Management System and makes you trouble-free from editing, developing and publishing new content on your website on daily basis.",
-      "image": digital
+      "title": "LOGO DESINGING",
+      "text": "Zeroland provides a complete identity to new brands. We offer logo designing services at affordable rates. We want a short brief from the client and the rest of the job is performed by our graphics department. Creative logo designs have been our team’s top priority. A well designed logo is more than just a creative mark, but a brand identity.",
+      "image": digital,
+      "link": '/logo-designing'
     },
     {
-      "title": "Responsive & Mobile Website Development",
-      "text": "A website which is easy to surf on all devices including on the mobile phone builds a positive image of the brand and this facility to users surely attracts more leads. Mobile web development, responsive design, adaptive design, and other techniques are all efficiently handled by our Zeroland team.",
-      "image": digital
+      "title": "BRAND IDENTITY DESIGN",
+      "text": "A great brand identity isn't only the one by which individuals recognise you, but also something to which individuals can relate themselves. At Zeroland digital, get your corporate brand identity designed that completely tells the story of your company. we've many strategy to get and improve your corporate identity among your competitors.",
+      "image": digital,
+      "link": '/brand-identidy-design'
     },
     {
-      "title": "E-Commerce Website",
-      "text": "Do you sell your product and services online? You have a website but it does not offer your customers to buy instantly. We expert web designing team builds E-commerce websites for all various types of industries. We have developed E-commerce websites for FMCG and clothing industries facilitating their customers with B2B and B2C customer portals.",
-      "image": digital
-    }
-]
+      "title": "PRINTING DESIGN",
+      "text": "At Zeroland digital designers are the exceptionally great artists. They not only design Prints but offer you an ideal shape with reference to your derise requirements using the colours of modernization and always remember the key concepts of your business. It is considered a cost-effective marketing tool for small businesses.",
+      "image": digital,
+      "link": '/printing-design'
+    },
+    {
+      "title": "DIGITAL MARKETING",
+      "text": "Zeroland digital is one of prime digital marketing agencies which offers almost all kind of marketing services in Pakistan in order to achieve your all marketing objectives with scalable and email automation. Marketing on social media is cheaper, more effective and more result-oriented than the traditional marketing.",
+      "image": digital,
+      "link": '/digital-marketing'
+    },
+    {
+      "title": "SOCIAL MEDIA MARKETING",
+      "text": "Social media has become a vital platform to advertise your products to a large audience. Marketing on social media is cheaper, more effective and more result-oriented than the traditional marketing. Let us work on your brand’s awareness and sales target via splendid social media marketing strategy on Facebook, Instagram, LinkedIn and Twitter.",
+      "image": digital,
+      "link": '/social-media-marketing'
+    },
+    {
+      "title": "ONLINE PUBLISHING",
+      "text": "Zeroland is the first kind of digital agency in Pakistan that owns an online publishing service. We have a maintained audience of .2 million on Facebook. Online publishing service is used for audience engagement and awareness creation. Our online publishing channels are highly suitable for hotels, food, education, and real estate industries.",
+      "image": digital,
+      "link": '/online-publishing'
+    },
+    {
+      "title": "SEARCH ENGINE OPTIMIZATION",
+      "text": "Get your website ranked in Google and other search engines. We make your products and services are visible when searched in the top search engines. Zeroland digital tend to produce and implement program improvement campaigns appropriate for your company that offer you with rankings that area unit long and relevant.",
+      "image": digital,
+      "link": '/search-engine-optimization'
+    },
+    // {
+    //   "title": "PPC ADVERTISING",
+    //   "text": "We will devise your brand’s strategy to advertise your company’s brand on Google. Pay per click is considered a highly effective marketing tool for drawing traffic to your website, and ultimately providing results in conversions.",
+    //   "image": digital,
+    //   "link": '/startup'
+    // },
+    // {
+    //   "title": "DISPLAY ADS",
+    //   "text": "For Google Ads campaign, we have an experienced paid search team that manages the results of display ads, experience new targeting or messaging, and adjusting the campaign to provide the best ROI to the company’s owner by analyzing the previous customer behavior, new visit to the website and the new promotion assessment.",
+    //   "image": digital,
+    //   "link": '/startup'
+    // }
+  ]
   // End Digital Services
   // Production Services
 const Production = [
     {
-      "title": "Web Design & Development",
-      "text": "Being the leading web designing and development agency, Zeroland team believes that it has to deliver a meaningful, user-friendly and interactive website for every client keeping in the notice the principles and demands of the client regarding the generation of leads, increment in sales and traffic divert on the website.",
-      "image": production 
+      "title": "PRODUCTION OF TVC/DVC",
+      "text": "Production of TVC/DVC has remained the key service for all leading production houses. Our experienced and diversified team is comes up with unique concept of TVC/DVC production. We ask for your thoughts, the rest of the job is perfectly performed by out dedicated production team.",
+      "image": production,
+      "link": '/tvc-dvc'
     },
     {
-      "title": "CMS & Web Dashboard Development",
-      "text": "At Zeroland digital, we offer service of managing new content on your website and in this regard, our team is equipped with the latest tools of Content Management System and makes you trouble-free from editing, developing and publishing new content on your website on daily basis.",
-      "image": production
+      "title": "CORPORATE VIDEOS",
+      "text": "We produce corporate videos for different corporate objectives it may be financial presentation or the launch of a new product, we capture all events with modern equipment.",
+      "image": production,
+      "link": '/corporate-videos'
     },
     {
-      "title": "Responsive & Mobile Website Development",
-      "text": "A website which is easy to surf on all devices including on the mobile phone builds a positive image of the brand and this facility to users surely attracts more leads. Mobile web development, responsive design, adaptive design, and other techniques are all efficiently handled by our Zeroland team.",
-      "image": production
+      "title": "FILM/DOCUMENTARY",
+      "text": "Our production team will showcase your objective to the screen in the shape of film and documentary formats to bring the attention of masses.",
+      "image": production,
+      "link": '/flims-documentary'
     },
     {
-      "title": "E-Commerce Website",
-      "text": "Do you sell your product and services online? You have a website but it does not offer your customers to buy instantly. We expert web designing team builds E-commerce websites for all various types of industries. We have developed E-commerce websites for FMCG and clothing industries facilitating their customers with B2B and B2C customer portals.",
-      "image": production
+      "title": "MUSIC VIDEOS",
+      "text": "From writing songs to capturing it in the video form, we provide high quality production services.",
+      "image": production,
+      "link": '/music-videos'
+    },
+    {
+      "title": "EVENT COVERAGE",
+      "text": "Make your events memorable with us. We guarantee to capture your memorable events with photo and video coverage with high quality service.",
+      "image": production,
+      "link": '/event-coverage'
     }
 ]
   // End Production Services
@@ -136,7 +186,7 @@ function Services() {
       return <section className="app-title">
         <div className="app-title-content">
           <h1 id='software'>Software Services</h1>
-          <p>We offer a tailor-made solution for every project</p>
+          <p>We offer a tailor-made solution for every project.</p>
         </div>
       </section>
     }
@@ -225,7 +275,7 @@ function Services() {
     render() {
       return <section className="app-title">
         <div className="app-title-content">
-          <h1 id='digital'>Digital Services</h1>
+        <h1 id='digital'>Digital Services</h1>
           <p>Intelligent digital experiences that build brands & grow businesses.</p>
         </div>
       </section>
@@ -234,12 +284,9 @@ function Services() {
   class Buttons extends React.Component {
     render() {
       return (  
-      <div >
-            <a className="button" href='digital'>Find out more
+            <a className="button" href={this.props.link}>Find out more
             <img src={rightArrow} alt="rightArrow"/>
             </a>
-          </div>
-       
       )
     }
   }
@@ -247,11 +294,18 @@ function Services() {
     render() {
       const { image } = this.props;
       var style = { 
-          backgroundImage: 'url(' + image + ')',
+          backgroundImage: 
+          'url(' 
+          + 
+          image 
+          + 
+          ')',
       };
       return (
+        <a href={this.props.link}>
         <header style={style} className="card-header">
         </header>
+        </a>
       )
     }
   }
@@ -259,11 +313,10 @@ function Services() {
     render() {
       return (
         <div className="card-body">
-           <a href='digital'>
+          <a href={this.props.link}>
           <h2>{this.props.title}</h2>
           <p className="body-content">{this.props.text}</p>
           </a>
-          <Buttons />
         </div>
       )
     }
@@ -272,98 +325,104 @@ function Services() {
     render() {
       return (
         <article className="card">
-          <CardHeaders image={this.props.detailss.image}/>
-          <CardBodys title={this.props.detailss.title} text={this.props.detailss.text}/>
+          <CardHeaders image={this.props.detailss.image} link={this.props.detailss.link}/>
+          <CardBodys title={this.props.detailss.title} text={this.props.detailss.text} link={this.props.detailss.link}/>
+          <Buttons link={this.props.detailss.link}/>
         </article>
       )
     }
   }
+
   // End Digital Services
   // Production Services
   class Productions extends React.Component { 
-      constructor() {
-        super();
-        
-        this.state = {
-          posts: {}
-        }
-      }
-      componentWillMount() {
-        this.setState({
-          posts: Production
-        });
-      }
-      render() {
-        return <div>
-          <header className="app-header"></header>
-          <Titless />
-          <div className="app-card-list" id="app-card-list">
-            {
-              Object
-              .keys(this.state.posts)
-              .map(key => <Cardss key={key} index={key} detailsss={this.state.posts[key]}/>)
-            }
-        </div>
-        </div>
+    constructor() {
+      super();
+      
+      this.state = {
+        posts: {}
       }
     }
+    componentWillMount() {
+      this.setState({
+        posts: Production
+      });
+    }
+    render() {
+      return <div>
+        <header className="app-header"></header>
+        <Titless />
+        <div className="app-card-list" id="app-card-list">
+          {
+            Object
+            .keys(this.state.posts)
+            .map(key => <Cardss key={key} index={key} detailsss={this.state.posts[key]}/>)
+          }
+      </div>
+      </div>
+    }
+  }
   class Titless extends React.Component {
-      render() {
-        return <section className="app-title">
-          <div className="app-title-content">
-            <h1 id='production'>Production Services</h1>
-            <p>We offer a tailor-made solution for every project</p>
-          </div>
-        </section>
-      }
+    render() {
+      return <section className="app-title">
+        <div className="app-title-content">
+        <h1 id='production'>Production Services</h1>
+            <p>We craft visualization into reality.</p>
+        </div>
+      </section>
     }
+  }
   class Buttonss extends React.Component {
-      render() {
-        return (  
-        <div >
-              <a className="button" href='production'>Find out more
-              <img src={rightArrow} alt="rightArrow"/>
-              </a>
-            </div>
-         
-        )
-      }
-    }
-  class CardHeaderss extends React.Component {
-      render() {
-        const { image } = this.props;
-        var style = { 
-            backgroundImage: 'url(' + image + ')',
-        };
-        return (
-          <header style={style} className="card-header">
-          </header>
-        )
-      }
-    }
-  class CardBodyss extends React.Component {
-      render() {
-        return (
-          <div className="card-body">
-           <a href='production'>
-            <h2>{this.props.title}</h2>
-            <p className="body-content">{this.props.text}</p>
+    render() {
+      return (  
+            <a className="button" href={this.props.link}>Find out more
+            <img src={rightArrow} alt="rightArrow"/>
             </a>
-            <Buttonss />
-          </div>
-        )
-      }
+      )
     }
+  }
+  class CardHeaderss extends React.Component {
+    render() {
+      const { image } = this.props;
+      var style = { 
+          backgroundImage: 
+          'url(' 
+          + 
+          image 
+          + 
+          ')',
+      };
+      return (
+        <a href={this.props.link}>
+        <header style={style} className="card-header">
+        </header>
+        </a>
+      )
+    }
+  }
+  class CardBodyss extends React.Component {
+    render() {
+      return (
+        <div className="card-body">
+          <a href={this.props.link}>
+          <h2>{this.props.title}</h2>
+          <p className="body-content">{this.props.text}</p>
+          </a>
+        </div>
+      )
+    }
+  }
   class Cardss extends React.Component {
-      render() {
-        return (
-          <article className="card">
-            <CardHeaderss image={this.props.detailsss.image}/>
-            <CardBodyss title={this.props.detailsss.title} text={this.props.detailsss.text}/>
-          </article>
-        )
-      }
+    render() {
+      return (
+        <article className="card">
+          <CardHeaderss image={this.props.detailsss.image} link={this.props.detailsss.link}/>
+          <CardBodyss title={this.props.detailsss.title} text={this.props.detailsss.text} link={this.props.detailsss.link}/>
+          <Buttonss link={this.props.detailsss.link}/>
+        </article>
+      )
     }
+  }
   // End Production Services
 
 

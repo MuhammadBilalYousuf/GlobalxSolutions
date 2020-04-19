@@ -22,7 +22,7 @@ const Product = () => {
   
 	//state
 	const [state, setState] = useState(false);
-  
+	console.log(state)
 	// Update the state to check if the user has dragged the product
 	useEffect(() => {
 	  x.onChange(() => {
@@ -71,7 +71,7 @@ const Product = () => {
 	);
 };
 
-const timelineData = [
+const Platforms = [
     {
 		text: [
 			<img src={nodejs} alt="nodejs"/>, ' NodeJs', <br></br> , 
@@ -98,9 +98,9 @@ const timelineData = [
     }
 ]
 
-const TimelineItem = ({ data }) => (
-    <div className="timeline-item">
-        <div className="timeline-item-content">
+const PlatformsItem = ({ data }) => (
+    <div className="platform-item">
+        <div className="platform-item-content">
             <span className="tag" style={{ background: data.category.color }}>
                 {data.category.tag}
             </span>
@@ -110,11 +110,11 @@ const TimelineItem = ({ data }) => (
     </div>
 );
 
-const Timeline = () =>
-    timelineData.length > 0 && (
-        <div className="timeline-container ">
-            {timelineData.map((data, idx) => (
-                <TimelineItem data={data} key={idx} />
+const Platform = () =>
+	Platforms.length > 0 && (
+        <div className="platform-container ">
+            {Platforms.map((data, idx) => (
+                <PlatformsItem data={data} key={idx} />
             ))}
         </div>
     );
@@ -133,7 +133,7 @@ const App = () => <>
       </h2> 
 	  </section>
      <br></br>
-	<Timeline />
+	<Platform />
 	</div>
 	</div>
 

@@ -155,7 +155,7 @@ class CaseStudies extends React.Component {
         phonenumber,
         message
       })
-
+      console.log(form);
     this.setState({ anim: true, isSending: true }, () => {
     });
     this.timeline();

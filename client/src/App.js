@@ -20,7 +20,13 @@ import Ecommerce from "./pages/ecommerce";
 import ItServices from "./pages/it-services";
 import Startup from "./pages/startup";
 import Digital from "./pages/digital";
+import VideoMotionGraphics from "./pages/video-motion-graphics";
 import Production from "./pages/production";
+import TvcDvc from "./pages/tvc-dvc";
+import CorporateVideos from "./pages/corporate-videos";
+import FlimsDocumentary from "./pages/flims-documentary";
+import MusicVideos from "./pages/music-videos";
+import EventCoverage from "./pages/event-coverage";
 import Demo from "./pages/demo";
 
 const routes = [
@@ -40,7 +46,13 @@ const routes = [
   { path: "/it-services", name: "itservices", Component: ItServices },
   { path: "/startup", name: "startup", Component: Startup },
   { path: "/digital", name: "digital", Component: Digital },
+  { path: "/video-motion-graphics", name: "videomotiongraphics", Component: VideoMotionGraphics },
   { path: "/production", name: "production", Component: Production },
+  { path: "/tvc-dvc", name: "tvcdvc", Component: TvcDvc },
+  { path: "/corporate-videos", name: "corporatevideos", Component: CorporateVideos },
+  { path: "/flims-documentary", name: "flimsdocumentary", Component: FlimsDocumentary },
+  { path: "/music-videos", name: "musicvideos", Component: MusicVideos },
+  { path: "/event-coverage", name: "eventcoverage", Component: EventCoverage },
   { path: "/demo", name: "demo", Component: Demo },
 ];
 

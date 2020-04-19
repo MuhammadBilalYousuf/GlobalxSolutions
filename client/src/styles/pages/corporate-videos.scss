@@ -1,0 +1,47 @@
+//colors
+$red: #fc3f4e;
+$white: #ffffff;
+
+.career-heading{
+  .item-title {
+    font-weight: bold;
+    font-size: 4rem;
+  @media (max-width: 599px) {
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding-top: 100px;
+  }
+  }
+  .item-mini-title {
+    font-weight: bold;
+    font-size: 2rem;
+  @media (max-width: 599px) {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  }
+  .item-description{
+      color: gray;
+      font-size: 1.5rem;
+  @media (max-width: 599px) {
+    color: gray;
+    font-size: 1.0rem;
+  }
+  }
+}
+
+//product overview
+.product {
+    .product-container {
+      position: relative;
+      height: 540px;
+
+      .product-image {
+        z-index: 8;
+        // position: absolute;
+        text-align: center;
+        margin: auto;
+      }
+    }
+}
+

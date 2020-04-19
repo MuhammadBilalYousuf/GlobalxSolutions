@@ -9,8 +9,11 @@ import go from "../assets/client/go.png";
 import pulse from "../assets/client/pulse.png";
 import cts from "../assets/client/cts.png";
 import cafe021 from "../assets/client/cafe021.png";
+import Tilt from 'react-tilt';
+
 
 const About = () => {
+
   class Card extends React.Component {
   
     render() {
@@ -31,10 +34,10 @@ const About = () => {
       );
     }
   }
+
   class Careers extends React.Component {
     constructor(props) {
       super(props);
-  
       this.state = {
         cards: [
           {id: 'card-1', title: cafe021},
@@ -45,6 +48,8 @@ const About = () => {
           {id: 'card-6', title: roar},
         ]
       }
+      // this.scrollToTop = this.scrollToTop.bind(this);
+
     }
     render() {
       return (
@@ -53,7 +58,9 @@ const About = () => {
           {
             this.state.cards.map(card => {
               return (
-                 <Card className="card-logo" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
+              <Tilt className="card-logo">
+              <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
+            </Tilt>
               )
             })
           }

@@ -5,7 +5,6 @@ import Headroom from "react-headroom";
 import { openMenu, closeMenu } from "../animations/menuAnimations";
 import { ReactComponent as UpArrow } from "../assets/up-arrow-circle.svg";
 
-// Define reducer
 const Header = ({ history, dimensions }) => {
   const [menuState, setMenuState] = useState({ menuOpened: false });
   useEffect(() => {
@@ -13,10 +12,15 @@ const Header = ({ history, dimensions }) => {
     history.listen(() => {
       setMenuState({ menuOpened: false });
     });
+   
     if (menuState.menuOpened === true) {
       openMenu(dimensions.width);
+      document.documentElement.style.overflow = 'hidden';
+      document.body.scroll = "no";
     } else if (menuState.menuOpened === false) {
       closeMenu();
+      document.documentElement.style.overflow = 'scroll';
+      document.body.scroll = "yes";
     }
   });
   const caseStudies = [
@@ -42,9 +46,9 @@ const Header = ({ history, dimensions }) => {
             </NavLink>
           </div>
           <div className='nav-toggle'>
-            <div
+            <div 
               onClick={() => setMenuState({ menuOpened: true })}
-              className='hamburger-menu'>
+              className='hamburger-menu' href="no-script-url: 0" >
                 <Headroom >
               <span></span>
               <span></span>
@@ -60,6 +64,7 @@ const Header = ({ history, dimensions }) => {
       </div>
     </div>
   );
+
 };
 
 export default withRouter(Header);

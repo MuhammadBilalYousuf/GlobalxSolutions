@@ -19,7 +19,7 @@ const Product = () => {
   
 	//state
 	const [state, setState] = useState(false);
-  
+	console.log(state);
 	// Update the state to check if the user has dragged the product
 	useEffect(() => {
 	  x.onChange(() => {

@@ -41,7 +41,6 @@
     .hamburger-menu-close {
       position: absolute;
       display: none;
-
       svg {
         @include media("<=tablet") {
           width: 56px;

@@ -150,7 +150,7 @@ class Approach extends React.Component {
         email,
         message
       })
-
+      console.log(form);
     this.setState({ anim: true, isSending: true }, () => {
     });
     this.timeline();

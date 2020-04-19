@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from 'react-router-hash-link';
+import ArrowRight from  "../assets/arrow-right.svg";
 
 const caseStudies = [
   {
@@ -13,14 +14,14 @@ const caseStudies = [
   },
   {
     id: 2,
-    href: '/services#digital',
+    href: '/digital',
     title: "DIGITAL HOUSE",
     subtitle: "Our digital team possess broader experience in re-shaping and transforming products into digital frames, your brand’s marketing from bottom to top.",
     img: "digital"
   },
   {
     id: 3,
-    href: '/services#production',
+    href: '/production',
     title: "PRODUCTION HOUSE",
     subtitle: "Our production team carefully study the case and formulate video production plan accordingly. We have created expressive ideas regarding TV & Digital Commercials for major industries.",
     img: "production"
@@ -37,7 +38,8 @@ const Cases = () => {
             <div className='case' key={caseItem.id}>
               <div className='case-details'>
                 <span>{caseItem.subtitle}</span>
-                <h2>{caseItem.title}</h2>
+                <h2>{caseItem.title}<img src={ArrowRight} alt="RightArrow"/></h2>
+                
               </div>
               <div className='case-image'>
                 <img

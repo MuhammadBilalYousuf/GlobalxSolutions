@@ -4,14 +4,9 @@ import { useIntersection } from "react-use";
 import "../styles/pages/software.scss";
 import { HashLink as Link } from 'react-router-hash-link';
 import ProductImage from "../assets/software/pro.png";
-
-import {
-	motion,
-	useSpring,
-	useTransform
-  } from "framer-motion";
+import { motion, useSpring, useTransform } from "framer-motion";
   
-  const Product = () => {
+const Product = () => {
 	const ease = [0.6, 0.05, -0.01, 0.99];
 	let x = useSpring(0, { stiffness: 300, damping: 200, ease: ease });
 	const scale = useTransform(x, [-100, 0], [1.25, 1]);
@@ -19,7 +14,7 @@ import {
   
 	//state
 	const [state, setState] = useState(false);
-  
+	console.log(state);
 	// Update the state to check if the user has dragged the product
 	useEffect(() => {
 	  x.onChange(() => {
@@ -71,10 +66,7 @@ import {
             <h2 className="item-title">ABOUT US</h2>
             <p className="item-description">
 			Zeroland Software house is a team of young and passionate software engineers having different exposure of software development industry. We provide cutting edge software solutions to all size of businesses. We have helped 60 plus companies and enterprises clients worldwide in the last two years. 
-		    </p>
-            <h2 className="item-title">OUR TEAM</h2>
-            <p className="item-description">
-			We are a skilled team of professionals in the field of software development. Each department possesses experienced and specified team to deliver the services. With the combination of technology, know-how and great communication and creative ideas, we are able to provide complete solutions under one roof for our esteemed clients. 
+			Each department possesses experienced and specified team to deliver the services. With the combination of technology, know-how and great communication and creative ideas, we are able to provide complete solutions under one roof for our esteemed clients. 
 		    </p>
       		</section>
       		</div>
@@ -94,7 +86,7 @@ import {
 		<div className="container">
       		<div className="row">
       		<section className="career-heading">
-            <h2 className="item-title">We develop high-tech Web solutions for Big & Small scale businesses</h2>
+            <h2 className="item-title">Zeroland Software develop high-tech Web solutions for Big & Small scale businesses.</h2>
             <p className="item-description">
 				We build everything around "People". We are passionate for work / life balance. We all love programming and are addicted to new technologies.
 				We have a vast experience in developing solutions for Web Industry. We successfully work with Artificial Intelligence, Big Data, Machine Learning, IoT, ERP, CRM, POS in a low-cost. It’s the best way to start prototyping
@@ -121,8 +113,7 @@ import {
 		</div>
 	</div>
 	);
-  };
-
+};
 
 const App = () => <>
     <br></br>

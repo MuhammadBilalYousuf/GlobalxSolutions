@@ -12,7 +12,7 @@ const Product = () => {
   
 	//state
 	const [state, setState] = useState(false);
-  
+	console.log(state);
 	// Update the state to check if the user has dragged the product
 	useEffect(() => {
 	  x.onChange(() => {
@@ -73,7 +73,7 @@ const Card = ({ title, className, description }) => {
 };
 
 const Box = () => {
-  var { one, two, three, four } = cardDescriptions;
+  var { one } = cardDescriptions;
   return (
       <div className="StyledContainer">
       <Card title="Lorem ipsum dolor amet dreamcatcher kale chips skateboard unicorn semiotics affogato pinterest. Organic chambray street art before they sold out squid hammock, flannel freegan church-key irony pok pok poke thundercats." description={one} />
