@@ -20,7 +20,14 @@ import Ecommerce from "./pages/ecommerce";
 import ItServices from "./pages/it-services";
 import Startup from "./pages/startup";
 import Digital from "./pages/digital";
+import LogoDesigning from "./pages/logo-designing";
+import BrandIdentityDesign from "./pages/brand-identity-design";
 import VideoMotionGraphics from "./pages/video-motion-graphics";
+import PrintingDesign from "./pages/printing-design";
+import DigitalMarketing from "./pages/digital-marketing";
+import SocialMediaMarketing from "./pages/social-media-marketing";
+import OnlinePublishing from "./pages/online-publishing";
+import SearchEngineOptimization from "./pages/search-engine-optimization";
 import Production from "./pages/production";
 import TvcDvc from "./pages/tvc-dvc";
 import CorporateVideos from "./pages/corporate-videos";
@@ -46,7 +53,14 @@ const routes = [
   { path: "/it-services", name: "itservices", Component: ItServices },
   { path: "/startup", name: "startup", Component: Startup },
   { path: "/digital", name: "digital", Component: Digital },
+  { path: "/logo-designing", name: "logodesigning", Component: LogoDesigning },
+  { path: "/brand-identity-design", name: "brandidentitydesign", Component: BrandIdentityDesign },
   { path: "/video-motion-graphics", name: "videomotiongraphics", Component: VideoMotionGraphics },
+  { path: "/digital-marketing", name: "digitalmarketing", Component: DigitalMarketing },
+  { path: "/social-media-marketing", name: "socialmediamarketing", Component: SocialMediaMarketing },
+  { path: "/online-publishing", name: "onlinepublishing", Component: OnlinePublishing },
+  { path: "/search-engine-optimization", name: "searchengineoptimization", Component: SearchEngineOptimization },
+  { path: "/printing-design", name: "printingdesign", Component: PrintingDesign },
   { path: "/production", name: "production", Component: Production },
   { path: "/tvc-dvc", name: "tvcdvc", Component: TvcDvc },
   { path: "/corporate-videos", name: "corporatevideos", Component: CorporateVideos },

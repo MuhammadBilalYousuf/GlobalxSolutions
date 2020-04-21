@@ -70,7 +70,7 @@ const Digital = [
       "title": "BRAND IDENTITY DESIGN",
       "text": "A great brand identity isn't only the one by which individuals recognise you, but also something to which individuals can relate themselves. At Zeroland digital, get your corporate brand identity designed that completely tells the story of your company. we've many strategy to get and improve your corporate identity among your competitors.",
       "image": digital,
-      "link": '/brand-identidy-design'
+      "link": '/brand-identity-design'
     },
     {
       "title": "PRINTING DESIGN",

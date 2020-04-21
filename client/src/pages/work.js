@@ -408,12 +408,12 @@ const Digital = [
     render () {
       const cards = this.state.works.map((card, index) => <div className='card'>
         <Digitalworks
-        cardImg={card.img}
+        cardImgs={card.img}
         key={index} /></div>)
   
       return (
         <div>
-          <div className='cardHolder'>
+          <div className='cardHolder-digital'>
             <h3 className='myWorks'>Our <mark className='markRed'>Digital Works</mark></h3>
             { cards }
           </div>
@@ -425,7 +425,7 @@ const Digital = [
     render () {
       return (
             <div>
-            {this.props.cardImg}
+            {this.props.cardImgs}
             </div>
       )
     }

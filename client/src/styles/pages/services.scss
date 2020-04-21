@@ -72,10 +72,7 @@
   overflow-x: scroll;
   overflow-y: hidden;
   margin-top:-70px;
-
-
-  
-  
+    
   &::-webkit-scrollbar { 
     // display: none; 
   }
@@ -103,3 +100,9 @@
  
   }
 }
+
+.container .row {
+  display: flex;
+  height: 100%;
+  /* width: 90%; */
+  }
