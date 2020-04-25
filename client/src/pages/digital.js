@@ -73,10 +73,6 @@ import {
             <p className="item-description">
 			Zeroland Digital offers complete services of digital marketing to small and large companies. Having 8 years in marketing service to local and international clients, we understand the demands of the new brands and provide them required solutions with complete digital marketing strategy having media planning and content development cycle as per customer behavior and the product niche. 
 		    </p>
-            {/* <h2 className="item-title">OUR TEAM</h2> */}
-            {/* <p className="item-description"> */}
-			{/* We are a skilled team of professionals in the field of software development. Each department possesses experienced and specified team to deliver the services. With the combination of technology, know-how and great communication and creative ideas, we are able to provide complete solutions under one roof for our esteemed clients.  */}
-		    {/* </p> */}
       		</section>
       		</div>
     	</div>
@@ -95,9 +91,11 @@ import {
 		<div className="container">
       		<div className="row">
 			  <section className="career-heading">
-			  <h2 className="item-title">We help businesses in establishing a entity from a small to a renowned brand.</h2>
+			  <h2 className="item-title">
+			  We help businesses establishing a renowned brand from a small entity. 
+				  </h2>
             <p className="item-description">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			The world has become a global village and the rate of digitization is accelerating. We just do not provide an online presence to enterprises but we chalk out plans and execute them to stand out from the crowd. Zeroland takes your enterprise from dull to dazzling with the help of the experienced digital marketing strategists. 
 		    </p>
             <p className="item-description">
 			We dealt in 360 marketing !

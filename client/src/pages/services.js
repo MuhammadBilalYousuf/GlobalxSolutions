@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/pages/services.scss";
-import rightArrow from "../assets/arrow-right.svg";
+import rightArrow from "../assets/arrow-right-second.svg";
 import production from "../assets/services/production.png";
 import digital from "../assets/services/digital.png";
 import software from "../assets/services/software.png";
@@ -126,7 +126,7 @@ const Production = [
     },
     {
       "title": "CORPORATE VIDEOS",
-      "text": "We produce corporate videos for different corporate objectives it may be financial presentation or the launch of a new product, we capture all events with modern equipment.",
+      "text": "We produce corporate videos for different corporate objectives it may be financial presentation or the launch of a new product, we capture all events with modern equipment. Zeroland produces amazing and effective video content for corporations.",
       "image": production,
       "link": '/corporate-videos'
     },

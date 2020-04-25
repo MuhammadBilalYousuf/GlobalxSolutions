@@ -70,7 +70,7 @@ import {
 			<p className="item-depart">Zeroland Production House</p>
             <h2 className="item-title">ABOUT US</h2>
             <p className="item-description">
-			Producing an amazing content has been our inspiration and motive behind the best clientele service. It is the expression of our dedicated team. Zeroland production which possesses expertise in the cross over of films and script writing. It may be TVC/DVC production for commercial purposes and corporate sector.
+			Zeroland is one of the top production houses which offers complete in-house TVC/DVC production services in Pakistan. In the digital era, we have seen an unprecedented rise in the demand for DVC production. We love to hear about your thought, let’s have a cup of coffee and get a free consultation to give you a complete briefing about your brand’s video production strategy.
 		    </p>
       		</section>
       		</div>

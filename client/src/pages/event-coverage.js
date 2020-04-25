@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/pages/event-coverage.scss";
 // import ProductImage from "../assets/production/Portfolio-Book.jpeg";
-import DownArrow from "../assets/down-arrow.svg";
 
 
 const Product = () => {
@@ -13,8 +12,7 @@ const Product = () => {
 			<section className="career-heading">
             <h2 className="item-title">EVENT COVERAGE</h2>
             <p className="item-description">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			Let us show our expertise in covering all types of family, corporate, educational, and social events. We cover trade shows, awards galas, and fashion shows. You may contact us to provide complete video coverage for weddings and other social gatherings.
 		    </p>
       		</section>
       		</div>

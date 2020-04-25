@@ -42,15 +42,15 @@ const Product = () => {
 					<li className="item-mini-title">
 					CMS/CUSTOM <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					The web technology offers the best solutions for content management system. At Zeroland, we provide CMS service by utilizing the latest tools of the web technology. For large corporations, our web team always suggest the clients to opt for customized content management system as per the business requirement. 
 					<li className="item-mini-title">
 					WEBSITE DEVELOPMENT <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					Zeroland’s professional web developers are fully equipped with the latest web development tools. We build secured, mobile-friendly, interactive and CMS based websites. Our main focus remains on quick loading of the website. In the free consultation, we guide our clients about the suitable platforms of the website and design as per their services and products nature. 
 					<li className="item-mini-title">
 					INTERFACE DESIGN & WEB PROTOTYPING <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					We design User interfaces that are highly suitable and adjustable for brands and products’ functions. Assimilating the latest UI patterns, we provide a detailed attention to all angles of the UI, from color choice to typography, our team craft appealing UI design.
 				</ul>
 		    </p>
       		</section>

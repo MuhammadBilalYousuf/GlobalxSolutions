@@ -1,29 +1,29 @@
 import React from "react";
 import { HashLink as Link } from 'react-router-hash-link';
-import ArrowRight from  "../assets/arrow-right.svg";
+import ArrowRight from  "../assets/next.svg";
 
 const caseStudies = [
   {
     id: 1,
-    href: '/software',
-    title: "SOFTWARE HOUSE",
-    subtitle: "Our Software team love to build something unique for Scalable Web and Mobile Applications, perform tasks with cross-platform programming languages along with agile scrum process.",
-    img: [
-     "software"
-    ]
-  },
-  {
-    id: 2,
     href: '/digital',
     title: "DIGITAL HOUSE",
     subtitle: "Our digital team possess broader experience in re-shaping and transforming products into digital frames, your brand’s marketing from bottom to top.",
     img: "digital"
   },
   {
+    id: 2,
+    href: '/software',
+    title: "SOFTWARE HOUSE",
+    subtitle: "Our Software team love to build something unique for Scalable Web and Mobile Applications, perform tasks with cross-platform programming languages.",
+    img: [
+     "software"
+    ]
+  },
+  {
     id: 3,
     href: '/production',
     title: "PRODUCTION HOUSE",
-    subtitle: "Our production team carefully study the case and formulate video production plan accordingly. We have created expressive ideas regarding TV & Digital Commercials for major industries.",
+    subtitle: "Our production team carefully study the case and formulate video production plan accordingly. We have ideas regarding TV & Digital Commercials for major industries.",
     img: "production"
   }
 ];
@@ -38,7 +38,7 @@ const Cases = () => {
             <div className='case' key={caseItem.id}>
               <div className='case-details'>
                 <span>{caseItem.subtitle}</span>
-                <h2>{caseItem.title}<img src={ArrowRight} alt="RightArrow"/></h2>
+                <h2>{caseItem.title}  <img src={ArrowRight} alt="RightArrow"/></h2>
                 
               </div>
               <div className='case-image'>

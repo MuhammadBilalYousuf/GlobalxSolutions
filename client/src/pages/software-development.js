@@ -42,15 +42,15 @@ const Product = () => {
 					<li className="item-mini-title">
 					AGILE SOFTWARE DEVELOPMENT <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					For customers’ scalable software projects, we offer agile software development services to cater to the needs of the growing industries. Our software development team keeps the clients engaged and updated each stage of the software project. 
 					<li className="item-mini-title">
 					CUSTOM SOFTWARE SOLUTIONS <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					In order to cater to the specific needs within a company, we develop custom-based softwares which specifically deal as per the needs of an enterprise. With specific technical support, custom-based softwares help increase the productivity of a company.
 					<li className="item-mini-title">
 					MANAGED SERVICES & DEVOPS <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					We provide technical and managing service on a regular basis for all types of softwares and applications. It is vital for large companies to remain updated with the latest technology. 
 				</ul>
 		    </p>
       		</section>

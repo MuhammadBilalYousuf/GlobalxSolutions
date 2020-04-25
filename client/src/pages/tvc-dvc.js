@@ -17,11 +17,11 @@ const Product = () => {
 					<li className="item-mini-title">
 					DVC PRODUCTION <img src={DownArrow} alt="DownArrow"/>
 					</li>
-                    DVC has emerged as a blessing for the brands companies that bring more and more business and make your brand familiar to the billions of online users. Let us produce the concept of your DVC and enjoy the exciting results with Zeroland Production.
+          The Digital era gave a sudden boom to DVC production. From the cost perspective, it is cheaper than TVC making. Small enterprises that lack in finance, we recommend them to opt for DVC creation in order to promote their brands. The promotion of products and services through DVC is highly recommended to target the social media audience irrespective of location. 
 					<li className="item-mini-title">
 					TVC PRODUCTION <img src={DownArrow} alt="DownArrow"/>
 					</li>
-                    TVC Television Video Commercial (TVC) is consid- ered the most effective video content. There is a huge audience that watches TV channels regularly will be knowing about your brand through your TVC. We create marvelous concepts for TVC which compete in the market and bring countless consumers with a single campaign.
+          TVC production is highly recommended for large corporate companies that leave no stone unturned in reaching the masses. The primary objective of the multinational and large enterprises is to cover all the mediums of promoting their brands and services. From a marketing perspective, it is costlier than a DVC creation. 
 				</ul>
 		    </p>
       		</section>

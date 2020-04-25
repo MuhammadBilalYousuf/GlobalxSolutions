@@ -88,12 +88,10 @@ const Product = () => {
       		<section className="career-heading">
             <h2 className="item-title">Zeroland Software develop high-tech Web solutions for Big & Small scale businesses.</h2>
             <p className="item-description">
-				We build everything around "People". We are passionate for work / life balance. We all love programming and are addicted to new technologies.
-				We have a vast experience in developing solutions for Web Industry. We successfully work with Artificial Intelligence, Big Data, Machine Learning, IoT, ERP, CRM, POS in a low-cost. It’s the best way to start prototyping
-				and developing your next web application with us.
+			We build everything around "the people." We are passionate about solving problems that create hindrances for businesses. We all love programming and are addicted to embrace new technologies for creating new horizons for businesses. We have a vast experience in diagnosing the problem and suggesting the correct tech dose to cure the issue. We have successfully used Artificial Intelligence, Big Data, Machine Learning, IoT, ERP, CRM, POS at affordable costs.
 		    </p>
             <p className="item-description">
-			We live and breathe in programming!
+			Let’s start working on your project because we live and breathe in programming!
 			</p>
       		</section>
       		</div>

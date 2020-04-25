@@ -1,7 +1,6 @@
 import React from 'react';
 import "../styles/pages/flims-documentary.scss";
 // import ProductImage from "../assets/production/Portfolio-Book.jpeg";
-import DownArrow from "../assets/down-arrow.svg";
 
 
 const Product = () => {
@@ -13,8 +12,7 @@ const Product = () => {
 			<section className="career-heading">
             <h2 className="item-title">FLIMS DOCUMENTARY</h2>
             <p className="item-description">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			A documentary or film has no comparison with other video productions. The Documentaries and film content are utilized by media houses and companies for the same purpose. Companies sponsor films and documentaries for their brands' promotion. Film production in Pakistan has seen a great demand recently. Our expert production team brainstorms ideas and share the complete film production strategy with our clients. 
 		    </p>
       		</section>
       		</div>

@@ -67,7 +67,7 @@
           margin-top: 20%;
           // font-size: 1.6rem;
           opacity: 0.8;
-          color: $black;
+          color: #fff;
           position: absolute;
           // font-weight: 600;
           @include media("<=desktop", ">tablet") {
@@ -85,7 +85,8 @@
           // margin-top: 16px;
           position: absolute;
           bottom: 0;
-          color: #131348;
+          color: #ffffff;
+          font-weight: bolder;
           @include media("<=desktop", ">tablet") {
             font-size: 1.2rem;
             // line-height: 2.4rem;
@@ -97,10 +98,12 @@
           }
         }
         img{
-          position: absolute;
-          bottom: -4px;
+          position: relative;
+          // bottom: 4px;
+          white-space: nowrap;
+
           @media (max-width: 599px) {
-            bottom: 4px;
+            // bottom: 4px;
           }
         }
       }
@@ -111,7 +114,7 @@
         height: 100%;
         overflow: hidden;
         position: absolute;
-        opacity: 0.65;
+        // opacity: 0.65;
         transition: 0.4s cubic-bezier(0.6, -0.05, 0.1, 0.99);
         img {
           height: 100%;

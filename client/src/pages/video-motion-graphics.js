@@ -16,9 +16,8 @@ const Product = () => {
 			<p className="item-depart">VIDEO MOTION GRAPHICS</p>
             <h2 className="item-title">EXPLAINER / 2D / 3D ANIMATION</h2>
             <p className="item-description">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            For portraying your brand’s message, animated videos are the best visual products to utilize them. Animated videos grab audience attention, engage them to watch the complete video. 
+            Zeroland will provide you free consultation for guiding about the suitable choice from the motion graphics’ types. We have produced tons of animated and motions graphics for our clients. We have complete in-house graphics and production system.
 		    </p>
       		</section>
       		</div>

@@ -17,11 +17,14 @@ const Product = () => {
 					<li className="item-mini-title">
 					CORPORATE MESSAGES <img src={DownArrow} alt="DownArrow"/>
 					</li>
-                    Today audiences are smarter, more savvy and hungry for tailored videos that answer their specific needs. Knowing why you’re creating content, who you’re creating it for and what you want it to achieve is essential.
+					The audience of modern era demands for video messages which are highly engaging in online publishing communities and delivering a lucid and succinct message to the consumers. We produce corporate messages with the experts of graphics, production and script at Zeroland. 
 					<li className="item-mini-title">
 					BRAND STORY <img src={DownArrow} alt="DownArrow"/>
 					</li>
-                    TVC Television Video Commercial (TVC) is consid- ered the most effective video content. There is a huge audience that watches TV channels regularly will be knowing about your brand through your TVC. We create marvelous concepts for TVC which compete in the market and bring countless consumers with a single campaign.
+					The trend of publishing a successful brand’s story is getting popular in Pakistan. Large and multinational companies are already using a story concept for their successful brands. The digital media has given an extra edge for small and large enterprises to share the brand story in order to leave an impactful message in the minds of the audience. 
+				<br>
+				</br>
+				Zeroland team will write the story concept, produce it, and Share on digital media. 
 				</ul>
 		    </p>
       		</section>

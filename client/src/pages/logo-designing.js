@@ -16,9 +16,9 @@ const Product = () => {
 			<p className="item-depart">LOGO DESIGNING</p>
             <h2 className="item-title">EMBLEM / WORDMARK / PICTORIAL MARK</h2>
             <p className="item-description">
-			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            A captivating logo always grab the attention of the audience and give them a point of topic to discuss with others. You name the logo type, we have logo designing specialists who have expertise in crafting all types of logos for service and product based industries. Our team proposes mock-ups before finalizing a delivery. 
+You have decided a name for your company but you don’t have idea about your logo design, color and fonts selection, you don’t need to worry. 
+Get your custom logo designed with Zeroland’s experts. 
 		    </p>
       		</section>
       		</div>

@@ -42,15 +42,15 @@ const Product = () => {
 					<li className="item-mini-title">
 					IOS APPS SERVICE <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					For over 6 years, we have been crafting highly impactful iPhone applications. If you are planning to build a new iOS app or upgrading it, our experienced iOS team provides free consultation to guide you about the app development and ongoing maintenance. Let us build beautiful, engaging and effective iOS apps for your brands. 
 					<li className="item-mini-title">
 					ANDROID APP SERVICE <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					Zeroland develops appealing android apps for all types of brands. Our team has proven record in creating E-commerce and info-based android apps that provide an extra edge to your businesses. For innovative android app development, we offer 360-degree solutions with complete technical support.
 					<li className="item-mini-title">
 					REACT NATIVE APP SERVICE <img src={DownArrow} alt="DownArrow"/>
 					</li>
-					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+					For an open-source and real-time update mobile app, we offer the "React Native" app development service to our valuable clients. React Native is highly suitable for minimum viable product and it takes shorter development time since it is an open-source platform.
 				</ul>
 		    </p>
       		</section>
