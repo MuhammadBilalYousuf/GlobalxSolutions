@@ -7,14 +7,14 @@ const caseStudies = [
     id: 1,
     href: '/digital',
     title: "DIGITAL HOUSE",
-    subtitle: "Our digital team possess broader experience in re-shaping and transforming products into digital frames, your brand’s marketing from bottom to top.",
+    subtitle: "Our digital team possess broader experience in re-shaping & transforming products into digital frames, your brand’s marketing from bottom to top.",
     img: "digital"
   },
   {
     id: 2,
     href: '/software',
     title: "SOFTWARE HOUSE",
-    subtitle: "Our Software team love to build something unique for Scalable Web and Mobile Applications, perform tasks with cross-platform programming languages.",
+    subtitle: "Our Software team love to build something unique for Scalable Web & Mobile Applications, perform tasks with cross-platform programming.",
     img: [
      "software"
     ]
@@ -23,7 +23,7 @@ const caseStudies = [
     id: 3,
     href: '/production',
     title: "PRODUCTION HOUSE",
-    subtitle: "Our production team carefully study the case and formulate video production plan accordingly. We have ideas regarding TV & Digital Commercials for major industries.",
+    subtitle: "Our production team carefully study the case and formulate video production plan. We have ideas regarding TVC & DVC for major industries.",
     img: "production"
   }
 ];

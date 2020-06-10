@@ -11,7 +11,6 @@ const Navigation = () => {
         <div className='nav-columns'>
           <div className='nav-column'>
             <br></br>
-            {/* <div className='nav-label'>Menu</div> */}
             <ul className='nav-links'>
               <li>
                 <NavLink to='/about-us' exact>
@@ -41,39 +40,37 @@ const Navigation = () => {
             </ul>
           </div>
           <div className='nav-column'>
-            {/* <div className='nav-label'>Contact</div> */}
             <div className='nav-infos'>
               <ul className='nav-info'>
                 <li className='nav-info-label'>Headquarter</li>
                 <li>Mezzanine floor, Lane, 5 D.H.A. Phase-VII, Karachi City, Pakistan 75500.</li>
-                {/* <li>Paya Lebar Square #12-53 Singapore 409051</li> */}
               </ul>
-              <ul className='nav-info'>
+              <ul className='nav-info' style={{marginLeft: '30px'}}>
                 <li className='nav-info-label'>Phone</li>
                 <li>+92 21 35342020</li>
-                {/* <br></br> */}
-                {/* <li>+65 9179 1468</li> */}
               </ul>
-              <ul className='nav-info'>
+              <ul className='nav-info nav-info-talk'>
                 <li className='nav-info-label'>Let's Talk</li>
                 <li>
                   info@zerolanddigital.com
                 </li>
+                <br></br>
                 <li>
                 <NavLink to='/careers' exact>
                 Careers & Meetup
                 </NavLink>
                 </li>
+                <br></br>
                 <li>
-                <NavLink to='https://facebook.com/zerolanddigital' exact>
+                <a href="https://facebook.com/zerolanddigital" target='_blank' rel="noopener noreferrer">
                 <img src={facebook} alt="facebook"/><span>&nbsp;&nbsp;</span>
-                </NavLink> 
-                <NavLink to='https://www.instagram.com/zeroland.digital' exact>
+                </a>
+                <a href="https://www.instagram.com/zeroland.digital" target='_blank' rel="noopener noreferrer">
                 <img src={instagram} alt="instagram"/><span>&nbsp;&nbsp;</span>
-                </NavLink>   
-                <NavLink to='https://twitter.com/zerolanddigital' exact>
+                </a>
+                <a href="https://twitter.com/zerolanddigital" target='_blank' rel="noopener noreferrer">
                 <img src={twitter} alt="twitter"/><span>&nbsp;&nbsp;</span>
-                </NavLink>   
+                </a>
                 </li>
               </ul>
             </div>

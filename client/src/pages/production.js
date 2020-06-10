@@ -103,7 +103,7 @@ import {
 		<div className='sectionSecond'>
         <div ref={sectionRef} className='inner'>
           <p className='fadeIn'>
-		  It requires multiple formats of media to provide a mass coverage to get a brand’s story out. 
+		  We are always glad to understand and produce your thought by visually representing it through the best possible ways of media. It requires multiple formats of media to provide a mass coverage to get a brand’s story out.
 		  We have majorly worked with real estate consultants, Hotels, Cafes, Builders and Developers automobile manufacturers and entertainment houses. Storytelling is not a piece of cake for everyone to describe it in the video format. Zeroland production where you find A to Z solutions of your production because our technically educated and experienced team generates proven results with its core commitment and dedication meet the client demand.
           </p>
           <div className='btn-row fadeIn'>

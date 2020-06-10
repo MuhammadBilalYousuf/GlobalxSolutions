@@ -199,7 +199,7 @@ class CaseStudies extends React.Component {
                         Ready to level up your business? Get a free Audit.
                         <br></br>
                
-                    <button className="button2" onClick={this.jsPDFGenerator}>Company Profile</button>
+                    {/* <button className="button2" onClick={this.jsPDFGenerator}>Company Profile</button> */}
                     </h2>
                     </div>
                     <div className='case-details2'>

@@ -3,12 +3,22 @@ import { useIntersection } from "react-use";
 import gsap from "gsap";
 import "../styles/pages/about.scss";
 import zeroland from "../assets/client/zeroland.png";
-import roar from "../assets/client/roar.png";
-import bawany from "../assets/client/bawany.png";
-import go from "../assets/client/go.png";
-import pulse from "../assets/client/pulse.png";
-import cts from "../assets/client/cts.png";
-import cafe021 from "../assets/client/cafe021.png";
+
+import AlaShopping from "../assets/client/alashopping.png"
+import Bawany from "../assets/client/Bawany.png";
+import Cafe021 from "../assets/client/cafe021.png";
+import CottonHome from "../assets/client/cottonhome.png";
+import CyberTrack from "../assets/client/cybertrack.png";
+import GhaniOsman from "../assets/client/GhaniOsman.png";
+import GovtSindh from "../assets/client/GovtSindh.png";
+import MarkhorClothing from "../assets/client/Markhorclothing.png";
+import NayaNazimabad from "../assets/client/NayaNazimabad.png";
+import Noblestructure from "../assets/client/Noblestructure.png";
+import PIM from "../assets/client/PIM.png";
+import Pulse from "../assets/client/Pulse.png";
+import RoarFitness from "../assets/client/RoarFitness.png";
+import USAID from "../assets/client/USAID.png";
+import Who from "../assets/client/Who.png";
 import Tilt from 'react-tilt';
 
 
@@ -40,12 +50,21 @@ const About = () => {
       super(props);
       this.state = {
         cards: [
-          {id: 'card-1', title: cafe021},
-          {id: 'card-2', title: cts},
-          {id: 'card-3', title: go},
-          {id: 'card-4', title: pulse},
-          {id: 'card-5', title: bawany},
-          {id: 'card-6', title: roar},
+          {id: 'card-1', title: AlaShopping},
+          {id: 'card-2', title: Bawany},
+          {id: 'card-3', title: Cafe021},
+          {id: 'card-4', title: CottonHome},
+          {id: 'card-5', title: CyberTrack},
+          {id: 'card-6', title: GhaniOsman},
+          {id: 'card-7', title: GovtSindh},
+          {id: 'card-8', title: MarkhorClothing},
+          {id: 'card-9', title: NayaNazimabad},
+          {id: 'card-10', title: Noblestructure},
+          {id: 'card-11', title: PIM},
+          {id: 'card-12', title: Pulse},
+          {id: 'card-13', title: RoarFitness},
+          {id: 'card-14', title: USAID},
+          {id: 'card-15', title: Who},
         ]
       }
       // this.scrollToTop = this.scrollToTop.bind(this);

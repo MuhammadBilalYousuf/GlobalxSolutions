@@ -11,12 +11,12 @@ const Banner = () => {
               <span>Hello, We're Zeroland Digital</span>
             </div>
             <div className='line'>
-              <span>Software Development & Design Teams</span>
+              <span>Software Development, Production & Design Team</span>
             </div>
           </h2>
           <div className='btn-row'>
             <a href='./about-us'>
-              More about us <RightArrow />
+              About Us <RightArrow />
             </a>
           </div>
         </div>

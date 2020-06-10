@@ -31,6 +31,7 @@ nav {
     }
   }
   .nav-columns {
+    // transform: translateY(13px);
     transform: translateY(100px);
     display: flex;
     padding: 0 32px;
@@ -82,13 +83,14 @@ nav {
             }
           }
           .nav-info-label {
-            font-weight: 600;
+            font-weight: bolder;
+            // font-size: 20rem;
           }
           li {
             font-weight: 300;
             list-style: none;
             font-size: 1.0rem;
-            margin-bottom: 1.2rem;
+            // margin-bottom: 1.2rem;
             @include media("<=tablet") {
               font-size: 1.2rem;
               margin-bottom: 1rem;
@@ -103,10 +105,23 @@ nav {
             }
           }
         }
+        .nav-info-talk{
+          margin-left: -60px;
+        @include media("<=phone") {
+          margin-left: 0px;
+        }
+        }
       }
       .nav-links {
         padding: 0;
         margin: 0;
+        // .logo {
+        //   img {
+        //     margin-left: -32px;
+        //     object-fit: cover;
+        //     z-index: 2;
+        //   }
+        // }
         li {
           list-style: none;
           margin-bottom: 0.5rem;

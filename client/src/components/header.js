@@ -5,14 +5,24 @@ import Headroom from "react-headroom";
 import { openMenu, closeMenu } from "../animations/menuAnimations";
 import { ReactComponent as UpArrow } from "../assets/up-arrow-circle.svg";
 
+// import  img  from "../assets/main-logo.png";
+// import  imgSecond  from "../assets/main-logo-white.png";
+
+
 const Header = ({ history, dimensions }) => {
+  
   const [menuState, setMenuState] = useState({ menuOpened: false });
+  const caseStudies = [
+    {
+      id: 1,
+      img: "main-logo"
+    }
+  ];
   useEffect(() => {
     //Listening for page changes.
     history.listen(() => {
       setMenuState({ menuOpened: false });
     });
-   
     if (menuState.menuOpened === true) {
       openMenu(dimensions.width);
       document.documentElement.style.overflow = 'hidden';
@@ -21,14 +31,11 @@ const Header = ({ history, dimensions }) => {
       closeMenu();
       document.documentElement.style.overflow = 'scroll';
       document.body.scroll = "yes";
+
     }
   });
-  const caseStudies = [
-    {
-      id: 1,
-      img: "main-logo"
-    }
-  ];
+
+
   return (
     <div className='header'>
       <div className='container'>
