@@ -5,9 +5,6 @@ import Headroom from "react-headroom";
 import { openMenu, closeMenu } from "../animations/menuAnimations";
 import { ReactComponent as UpArrow } from "../assets/up-arrow-circle.svg";
 
-// import  img  from "../assets/main-logo.png";
-// import  imgSecond  from "../assets/main-logo-white.png";
-
 
 const Header = ({ history, dimensions }) => {
   
@@ -45,7 +42,7 @@ const Header = ({ history, dimensions }) => {
             {caseStudies.map(caseItem => (
                 <img
                   src={require(`../assets/${caseItem.img}.png`)}
-                  alt="Zeroland-Logo"
+                  alt="GlobalxSolutions-Logo"
                   id={caseItem.id}
                   key={caseItem.id}
                 />

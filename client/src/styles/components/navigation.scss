@@ -31,13 +31,13 @@ nav {
     }
   }
   .nav-columns {
-    // transform: translateY(13px);
     transform: translateY(100px);
     display: flex;
     padding: 0 32px;
     @include media("<=654px") {
       flex-direction: column;
       @include media("<=phone") {
+        transform: translateY(70px);
         padding: 0 16px;
       }
     }
@@ -84,7 +84,7 @@ nav {
           }
           .nav-info-label {
             font-weight: bolder;
-            // font-size: 20rem;
+            font-size: 1.2rem;
           }
           li {
             font-weight: 300;

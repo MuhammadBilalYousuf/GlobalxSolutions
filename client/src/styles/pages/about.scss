@@ -30,8 +30,8 @@ label.card {
 label.card div {
   position: absolute;
   margin: 0;
-  width: 100%;
-  height: 80%;
+  // width: 100%;
+  // height: 80%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   // border-radius: 30px;
@@ -175,8 +175,11 @@ p {
   text-align: center;
   font-size: 2rem;
 }
+.ourclients2{
+  text-align: center;
+  font-size: 2rem;
+}
 
 .Tilt-inner{
   reverse: "true";
 }
-

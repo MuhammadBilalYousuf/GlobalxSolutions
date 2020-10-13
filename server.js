@@ -35,9 +35,9 @@ app.post('/api/form', (req, res) => {
     });
     // setup email data with unicode symbols
     let mailOptions = {
-        from: '"Zeroland" <info@globalxsolutions.com>', // sender address
+        from: '"GlobalxSolutions" <info@globalxsolutions.com>', // sender address
         to: 'muhammadbilalyousuf0@gmail.com', // list of receivers
-        subject: 'Zeroland Website Contact Request', // Subject line
+        subject: 'GlobalxSolutions Contact Request', // Subject line
         text: 'Hello world?', // plain text body
         html: htmlEmail // html body
     };
@@ -60,7 +60,7 @@ app.post('/api/forms', (req, res) => {
         <h3>Contact Details</h3>
         <ul>
         <li>Name: ${req.body.name}</li>
-        <li>Email: ${req.body.email}</li>
+        <li>Work Email: ${req.body.email}</li>
         <li>Company: ${req.body.company}</li>
         <li>Phone Number: ${req.body.phonenumber}</li>
        </ul>
@@ -82,9 +82,9 @@ app.post('/api/forms', (req, res) => {
       });
       // setup email data with unicode symbols
       let mailOptions = {
-          from: '"Zeroland" <info@globalxsolutions.com>', // sender address
+          from: '"GlobalxSolutions" <info@globalxsolutions.com>', // sender address
           to: 'muhammadbilalyousuf0@gmail.com', // list of receivers
-          subject: 'Zeroland Website Info Request', // Subject line
+          subject: 'GlobalxSolutions Info Request', // Subject line
           text: 'Hello world?', // plain text body
           html: htmlEmail // html body
       };

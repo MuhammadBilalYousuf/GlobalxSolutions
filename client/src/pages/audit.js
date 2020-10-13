@@ -229,7 +229,7 @@ class CaseStudies extends React.Component {
           <input
             className="inp"
             type="email"
-            placeholder="Email"
+            placeholder="Work Email"
             name="email"
             onChange={this.handleChange}
           />

@@ -1,6 +1,6 @@
 import React from 'react';
-import  img  from "../assets/main-logo.png";
-import  imgSecond  from "../assets/main-logo-white.png";
+// import  img  from "../assets/main-logo.png";
+// import  imgSecond  from "../assets/main-logo-white.png";
 
 class App extends React.Component {
 	constructor() {

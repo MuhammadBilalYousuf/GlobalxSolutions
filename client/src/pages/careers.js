@@ -1,6 +1,7 @@
 import React from 'react';
 import "../styles/pages/careers.scss";
-import work from "../assets/work/work.jpg";
+import career1 from "../assets/career1.png";
+import career2 from "../assets/career2.jpg";
 
 // Jobs
 function Card(props) {
@@ -92,8 +93,8 @@ class SwipeButton extends React.Component {
 
   renderUnlockText = () => (
     <div>
-      <a href="mailto:apply@zerolanddigital.com">
-      apply@zerolanddigital.com
+      <a style={{color: 'white', textDecoration: 'none'}} href="mailto:careers@globalxsolutions.com">
+      <span style={{color: 'white', textDecoration: 'none'}}>careers@globalxsolutions.com</span>
       </a>
     </div>
   )
@@ -146,10 +147,10 @@ const Careers = () => {
       <div className="row">
       <div className="career-img">
         <div className="career-image">
-        <img src={work} alt="careers"/>
+        <img src={career1} alt="careers"/>
         </div>
         <div className="career-image">
-        <img src={work} alt="careers"/>
+        <img src={career2} alt="careers"/>
         </div>
       </div>
       </div>

@@ -1,8 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import facebook from "../assets/socialicons/facebook.svg";
 import instagram from "../assets/socialicons/instagram.svg";
-import twitter from "../assets/socialicons/twitter.svg";
+import GDBR from "../assets/gdpr_logo.png";
+import talentadore from "../assets/talentadore-logo-g.png";
+
 
 const Navigation = () => {
   return (
@@ -22,11 +23,11 @@ const Navigation = () => {
                   Services
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to='/work' exact>
                   Works
                 </NavLink>
-              </li>
+              </li> */}
               <li>
                 <NavLink to='/approach' exact>
                 Get in touch with us
@@ -37,39 +38,38 @@ const Navigation = () => {
                 Get a free audit
                 </NavLink>
               </li>
+              <li>
+                <NavLink to='/careers' exact>
+                Careers & Meetup
+                </NavLink>
+              </li>
             </ul>
           </div>
           <div className='nav-column'>
             <div className='nav-infos'>
               <ul className='nav-info'>
-                <li className='nav-info-label'>Headquarter</li>
-                <li>Mezzanine floor, Lane, 5 D.H.A. Phase-VII, Karachi City, Pakistan 75500.</li>
+                <li className='nav-info-label'>Singapore Office</li>
+                <br/>
+                <li>Paya Lebar Square #12-53 Singapore 409051.</li>
               </ul>
               <ul className='nav-info' style={{marginLeft: '30px'}}>
-                <li className='nav-info-label'>Phone</li>
-                <li>+92 21 35342020</li>
+              <li className='nav-info-label'>Karachi Office</li>
+              <br/>
+                <li>Office # M-2, 43C Tauheed Commercial, DHA Phase V.</li>
               </ul>
-              <ul className='nav-info nav-info-talk'>
-                <li className='nav-info-label'>Let's Talk</li>
+              <ul className='nav-info nav-info-talk' style={{marginLeft: '30px'}}>
+                <li className='nav-info-label'>Let’s talk this out</li>
+                <br/>
+                <li>info@globalxsolutions.com</li>
+                <br/>
+                <li className='nav-info-label'>Trusted By</li>
                 <li>
-                  info@zerolanddigital.com
+                <img src={GDBR} alt="GDBR" style={{width: '60pt'}}/><span> &nbsp;</span>          
+                <img src={talentadore} alt="GDBR" style={{width: '60pt'}}/>   
                 </li>
-                <br></br>
                 <li>
-                <NavLink to='/careers' exact>
-                Careers & Meetup
-                </NavLink>
-                </li>
-                <br></br>
-                <li>
-                <a href="https://facebook.com/zerolanddigital" target='_blank' rel="noopener noreferrer">
-                <img src={facebook} alt="facebook"/><span>&nbsp;&nbsp;</span>
-                </a>
-                <a href="https://www.instagram.com/zeroland.digital" target='_blank' rel="noopener noreferrer">
+                <a href="https://www.instagram.com/globalxsolutions" target='_blank' rel="noopener noreferrer">
                 <img src={instagram} alt="instagram"/><span>&nbsp;&nbsp;</span>
-                </a>
-                <a href="https://twitter.com/zerolanddigital" target='_blank' rel="noopener noreferrer">
-                <img src={twitter} alt="twitter"/><span>&nbsp;&nbsp;</span>
                 </a>
                 </li>
               </ul>

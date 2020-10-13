@@ -2,23 +2,22 @@ import React, { useRef } from "react";
 import { useIntersection } from "react-use";
 import gsap from "gsap";
 import "../styles/pages/about.scss";
-import zeroland from "../assets/client/zeroland.png";
-
-import AlaShopping from "../assets/client/alashopping.png"
-import Bawany from "../assets/client/Bawany.png";
-import Cafe021 from "../assets/client/cafe021.png";
-import CottonHome from "../assets/client/cottonhome.png";
-import CyberTrack from "../assets/client/cybertrack.png";
-import GhaniOsman from "../assets/client/GhaniOsman.png";
-import GovtSindh from "../assets/client/GovtSindh.png";
-import MarkhorClothing from "../assets/client/Markhorclothing.png";
-import NayaNazimabad from "../assets/client/NayaNazimabad.png";
-import Noblestructure from "../assets/client/Noblestructure.png";
-import PIM from "../assets/client/PIM.png";
-import Pulse from "../assets/client/Pulse.png";
-import RoarFitness from "../assets/client/RoarFitness.png";
-import USAID from "../assets/client/USAID.png";
-import Who from "../assets/client/Who.png";
+// import GlobalxSolutions from "../assets/GlobalXsolutionlogo.png";
+import Owner from "../assets/team/Owner.JPG";
+import Bawany from "../assets/Software-Engineer.jpeg";
+import Cafe021 from "../assets/Android-Developer.jpeg";
+import CottonHome from "../assets/Web-Developer.jpeg";
+// import CyberTrack from "../assets/client/cybertrack.png";
+// import GhaniOsman from "../assets/client/GhaniOsman.png";
+// import GovtSindh from "../assets/client/GovtSindh.png";
+// import MarkhorClothing from "../assets/client/Markhorclothing.png";
+// import NayaNazimabad from "../assets/client/NayaNazimabad.png";
+// import Noblestructure from "../assets/client/Noblestructure.png";
+// import PIM from "../assets/client/PIM.png";
+// import Pulse from "../assets/client/Pulse.png";
+// import RoarFitness from "../assets/client/RoarFitness.png";
+// import USAID from "../assets/client/USAID.png";
+// import Who from "../assets/client/Who.png";
 import Tilt from 'react-tilt';
 
 
@@ -30,46 +29,30 @@ const About = () => {
       return (
         <div className="card-container">
           <input type="checkbox" id={this.props.id}/>
-  
           <label className="card" htmlFor={this.props.id}>
             <div className="front">
               <h3 style={{textAlign:'center', fontWeight:'bold'}}>{this.props.title}</h3>
             </div>
-  
-            <div className="back">
-              <img src={zeroland} alt="zeroland logo"></img>
-            </div>
+            {/* <div className="back">
+              <img src={GlobalxSolutions} alt="GlobalxSolutions logo"></img>
+            </div> */}
           </label>
         </div>
       );
     }
   }
 
-  class Careers extends React.Component {
+  class Team extends React.Component {
     constructor(props) {
       super(props);
       this.state = {
         cards: [
-          {id: 'card-1', title: AlaShopping},
-          {id: 'card-2', title: Bawany},
-          {id: 'card-3', title: Cafe021},
-          {id: 'card-4', title: CottonHome},
-          {id: 'card-5', title: CyberTrack},
-          {id: 'card-6', title: GhaniOsman},
-          {id: 'card-7', title: GovtSindh},
-          {id: 'card-8', title: MarkhorClothing},
-          {id: 'card-9', title: NayaNazimabad},
-          {id: 'card-10', title: Noblestructure},
-          {id: 'card-11', title: PIM},
-          {id: 'card-12', title: Pulse},
-          {id: 'card-13', title: RoarFitness},
-          {id: 'card-14', title: USAID},
-          {id: 'card-15', title: Who},
+          {id: 'card-1', title: Owner},
         ]
       }
       // this.scrollToTop = this.scrollToTop.bind(this);
-
     }
+    
     render() {
       return (
       <div className='container'>
@@ -79,12 +62,57 @@ const About = () => {
               return (
               <Tilt className="card-logo">
               <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
-            </Tilt>
+              </Tilt>
               )
             })
           }
         </div>
         </div>
+        
+      );
+    }
+  }
+  class Team2 extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = {
+        cards2: [
+          {id: 'card-2', title: Bawany},
+          {id: 'card-3', title: Cafe021},
+          {id: 'card-4', title: CottonHome},
+          // {id: 'card-5', title: CyberTrack},
+          // {id: 'card-6', title: GhaniOsman},
+          // {id: 'card-7', title: GovtSindh},
+          // {id: 'card-8', title: MarkhorClothing},
+          // {id: 'card-9', title: NayaNazimabad},
+          // {id: 'card-10', title: Noblestructure},
+          // {id: 'card-11', title: PIM},
+          // {id: 'card-12', title: Pulse},
+          // {id: 'card-13', title: RoarFitness},
+          // {id: 'card-14', title: USAID},
+          // {id: 'card-15', title: Who},
+        ]
+
+      }
+    }
+    
+    render() {
+      return (
+      <div className='container'>
+        {/* <div className="gallery">
+          {
+            this.state.cards2.map(card => {
+              return (
+              <Tilt className="card-logo">
+  
+              <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
+              </Tilt>
+              )
+            })
+          }
+        </div> */}
+        </div>
+        
       );
     }
   }
@@ -131,10 +159,7 @@ const About = () => {
           <div>
             <p className="item-title">Who We Are</p>
             <p className="item-description">
-            Zeroland was established with the aim of providing state-of-art and the latest technological services in the shape of software production services, digital marketing and video production solutions under one umbrella. Having 10 years of experience in providing solutions to business organizations, the founder vowed to go beyond the traditional marketing modus of Operandi and challenge the national and international boundaries to provide media production, digital marketing and software productions services.
-            </p>
-            <p className="item-description">
-            Zeroland team of 40+ members possess rich experience in their respective fields and the team has accomplished hundreds of local and international projects of multiple domains.
+            GlobalxSolutions was established with the aim of providing state-of-art and the latest technological services in the shape of software production services, digital marketing and video production solutions under one umbrella. Having 10 years of experience in providing solutions to business organizations, the founder vowed to go beyond the traditional marketing modus of Operandi and challenge the national and international boundaries to provide software development, digital marketing, media production and services.
             </p>
             <p className="item-description">
             We are living in a rapidly changing environment and it is a cumbersome task for the companies like us to keep abreast ourselves of the latest clientele demand along with the modern technology and we love to embrace transformations because we transform the brands into modern technology. 
@@ -144,8 +169,14 @@ const About = () => {
         <div className="separator">
         </div>
       </ul>
-      <h2 className="ourclients">Our Clients</h2>  
-      <Careers />
+      <h2 className="ourclients">Founder & CTO</h2>  
+      <Team />
+      <br/>
+                <br/>
+                <br/>
+        
+      {/* <h2 className="ourclients2">Our Team</h2>   */}
+      <Team2 />
       </section>
       <div className='sectionSecond'>
         <div ref={sectionRef} className='inner'>

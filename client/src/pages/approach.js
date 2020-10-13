@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/pages/approach.scss";
 import anime from "animejs";
 import axios from 'axios';
+// import GDBR from "../assets/gdpr_logo.png";
+// import talentadore from "../assets/talentadore-logo-g.png";
 
 class Approach extends React.Component {
     constructor(){
@@ -171,6 +173,7 @@ class Approach extends React.Component {
                     <h2>
                         Get in touch with us
                     </h2>
+               
                 </div>
                     <div className='case-details2'>
                     <form id="contactform" onSubmit={this.handleSubmit}>
