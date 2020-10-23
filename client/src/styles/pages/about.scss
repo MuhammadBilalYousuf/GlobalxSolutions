@@ -43,7 +43,7 @@ label.card div img{
 }
 
 .front {
-  // border-radius: 30px;
+  border-radius: 30px;
   // column-gap: 40px;
   // column-rule: 4px double #ff00ff;
   background: #000000;
@@ -52,11 +52,11 @@ label.card div img{
   
 }
 
-.back {
-  background: #ffffff;
-  -webkit-transform: rotateY(180deg);
-  transform: rotateY(180deg);
-}
+// .back {
+//   background: #ffffff;
+//   -webkit-transform: rotateY(180deg);
+//   transform: rotateY(180deg);
+// }
 
 
 /* ================================================================================
@@ -182,4 +182,12 @@ p {
 
 .Tilt-inner{
   reverse: "true";
+}
+
+.team{
+  text-align: center;
+}
+.Designation{
+  font-size: 12px;
+color: #9a9da6;
 }

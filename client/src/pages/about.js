@@ -4,9 +4,13 @@ import gsap from "gsap";
 import "../styles/pages/about.scss";
 // import GlobalxSolutions from "../assets/GlobalXsolutionlogo.png";
 import Owner from "../assets/team/Owner.JPG";
-import Bawany from "../assets/Software-Engineer.jpeg";
-import Cafe021 from "../assets/Android-Developer.jpeg";
-import CottonHome from "../assets/Web-Developer.jpeg";
+import InternationalSalesDirector from "../assets/team/International Sales Director.png";
+import CreativeManager from "../assets/team/Creative-Manager.png";
+import AndroidDeveloper from "../assets/team/Android-Developer.png";
+import ProductionHead from "../assets/team/Production-Head.png";
+import GraphicHead from "../assets/team/Graphic-Head.png";
+import SoftwareEngineer from "../assets/team/Software-Engineer.png";
+import WebDeveloper from "../assets/team/Web-Developer.png";
 // import CyberTrack from "../assets/client/cybertrack.png";
 // import GhaniOsman from "../assets/client/GhaniOsman.png";
 // import GovtSindh from "../assets/client/GovtSindh.png";
@@ -28,14 +32,13 @@ const About = () => {
     render() {
       return (
         <div className="card-container">
-          <input type="checkbox" id={this.props.id}/>
+          {/* <input type="checkbox" id={this.props.id}/> */}
           <label className="card" htmlFor={this.props.id}>
             <div className="front">
-              <h3 style={{textAlign:'center', fontWeight:'bold'}}>{this.props.title}</h3>
+              <p style={{textAlign:'center'}}>
+              {this.props.title}
+              </p>
             </div>
-            {/* <div className="back">
-              <img src={GlobalxSolutions} alt="GlobalxSolutions logo"></img>
-            </div> */}
           </label>
         </div>
       );
@@ -50,25 +53,24 @@ const About = () => {
           {id: 'card-1', title: Owner},
         ]
       }
-      // this.scrollToTop = this.scrollToTop.bind(this);
     }
     
     render() {
       return (
-      <div className='container'>
-        <div className="gallery">
-          {
-            this.state.cards.map(card => {
-              return (
-              <Tilt className="card-logo">
-              <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
-              </Tilt>
-              )
-            })
-          }
-        </div>
-        </div>
-        
+            <div className='container'>
+            <div className="gallery">
+              {
+                this.state.cards.map(card => {
+                  return (
+                  <Tilt className="card-logo">
+                  <h5 className="team">Muhammad Bilal Yousuf|Owner<br></br><p className="Designation">FullStack Developer|Aspiring AI Specilist</p> </h5>  
+                  <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="team"/>}/>
+                  </Tilt>
+                  )
+                })
+              }
+            </div>
+          </div>   
       );
     }
   }
@@ -77,42 +79,33 @@ const About = () => {
       super(props);
       this.state = {
         cards2: [
-          {id: 'card-2', title: Bawany},
-          {id: 'card-3', title: Cafe021},
-          {id: 'card-4', title: CottonHome},
-          // {id: 'card-5', title: CyberTrack},
-          // {id: 'card-6', title: GhaniOsman},
-          // {id: 'card-7', title: GovtSindh},
-          // {id: 'card-8', title: MarkhorClothing},
-          // {id: 'card-9', title: NayaNazimabad},
-          // {id: 'card-10', title: Noblestructure},
-          // {id: 'card-11', title: PIM},
-          // {id: 'card-12', title: Pulse},
-          // {id: 'card-13', title: RoarFitness},
-          // {id: 'card-14', title: USAID},
-          // {id: 'card-15', title: Who},
+          {id: 'card-2', title: InternationalSalesDirector, name: 'Igen Tan', designation: 'International Sales Director'},
+          {id: 'card-3', title: CreativeManager, name: 'Syed Ali Ashraf', designation: 'Creative Manager'},
+          {id: 'card-4', title: AndroidDeveloper, name: 'Anas Anwar', designation: 'Mobile Development Head'},
+          {id: 'card-5', title: ProductionHead, name: 'Waqar Qamar', designation: 'Production Head'},
+          {id: 'card-6', title: GraphicHead, name: 'Syed Hammad Ali', designation: 'Graphic Head'},
+          {id: 'card-7', title: SoftwareEngineer, name: 'Arshad Ali', designation: 'Software Engineer'},
+          {id: 'card-8', title: WebDeveloper, name: 'Dawood Hayat', designation: 'Web Developer'},
         ]
-
       }
     }
     
     render() {
       return (
       <div className='container'>
-        {/* <div className="gallery">
+        <div className="gallery">
           {
             this.state.cards2.map(card => {
               return (
               <Tilt className="card-logo">
-  
-              <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="client logo"/>}/>
+              <h5 className="team">{card.name}<br></br><p className="Designation">{card.designation}</p> </h5>  
+              <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="team"/>}/>
               </Tilt>
               )
             })
           }
-        </div> */}
         </div>
-        
+      </div>   
       );
     }
   }
@@ -169,13 +162,13 @@ const About = () => {
         <div className="separator">
         </div>
       </ul>
-      <h2 className="ourclients">Founder & CTO</h2>  
       <Team />
-      <br/>
-                <br/>
-                <br/>
-        
-      {/* <h2 className="ourclients2">Our Team</h2>   */}
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Team2 />
       </section>
       <div className='sectionSecond'>
