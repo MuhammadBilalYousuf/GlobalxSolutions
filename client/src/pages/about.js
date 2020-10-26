@@ -11,18 +11,6 @@ import ProductionHead from "../assets/team/Production-Head.png";
 import GraphicHead from "../assets/team/Graphic-Head.png";
 import SoftwareEngineer from "../assets/team/Software-Engineer.png";
 import WebDeveloper from "../assets/team/Web-Developer.png";
-import WordPressDeveloper from "../assets/team/Lead-WordPress-Developer.png";
-// import CyberTrack from "../assets/client/cybertrack.png";
-// import GhaniOsman from "../assets/client/GhaniOsman.png";
-// import GovtSindh from "../assets/client/GovtSindh.png";
-// import MarkhorClothing from "../assets/client/Markhorclothing.png";
-// import NayaNazimabad from "../assets/client/NayaNazimabad.png";
-// import Noblestructure from "../assets/client/Noblestructure.png";
-// import PIM from "../assets/client/PIM.png";
-// import Pulse from "../assets/client/Pulse.png";
-// import RoarFitness from "../assets/client/RoarFitness.png";
-// import USAID from "../assets/client/USAID.png";
-// import Who from "../assets/client/Who.png";
 import Tilt from 'react-tilt';
 
 
@@ -87,7 +75,6 @@ const About = () => {
           {id: 'card-6', title: GraphicHead, name: 'Syed Hammad Ali', designation: 'Graphic Head'},
           {id: 'card-7', title: SoftwareEngineer, name: 'Arshad Ali', designation: 'Software Engineer'},
           {id: 'card-8', title: WebDeveloper, name: 'Dawood Hayat', designation: 'Web Developer'},
-          {id: 'card-8', title: WordPressDeveloper, name: 'Shahid Siddiqui', designation: 'WordPress Developer'},
         ]
       }
     }
