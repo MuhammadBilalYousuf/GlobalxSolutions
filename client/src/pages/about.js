@@ -11,6 +11,7 @@ import ProductionHead from "../assets/team/Production-Head.png";
 import GraphicHead from "../assets/team/Graphic-Head.png";
 import SoftwareEngineer from "../assets/team/Software-Engineer.png";
 import WebDeveloper from "../assets/team/Web-Developer.png";
+import WebDeveloper2 from "../assets/team/Web-Developer-2.png";
 import Tilt from 'react-tilt';
 
 
@@ -75,6 +76,7 @@ const About = () => {
           {id: 'card-6', title: GraphicHead, name: 'Syed Hammad Ali', designation: 'Graphic Head'},
           {id: 'card-7', title: SoftwareEngineer, name: 'Arshad Ali', designation: 'Software Engineer'},
           {id: 'card-8', title: WebDeveloper, name: 'Dawood Hayat', designation: 'Web Developer'},
+          {id: 'card-9', title: WebDeveloper2, name: 'Junaid Iqbal', designation: 'Web Developer'},
         ]
       }
     }
