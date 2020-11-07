@@ -50,7 +50,7 @@ const Navigation = () => {
               <ul className='nav-info'>
                 <li className='nav-info-label'>Singapore Office</li>
                 <br/>
-                <li>Paya Lebar Square #12-53 Singapore 409051.</li>
+                <li>Gambas Cres, #01-11 50, Singapore 757022.</li>
               </ul>
               <ul className='nav-info' style={{marginLeft: '30px'}}>
               <li className='nav-info-label'>Karachi Office</li>
