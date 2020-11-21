@@ -53,7 +53,7 @@ const About = () => {
                 this.state.cards.map(card => {
                   return (
                   <Tilt className="card-logo">
-                  <h5 className="team">Muhammad Bilal Yousuf|Owner<br></br><p className="Designation">FullStack Developer|Aspiring AI Specilist</p> </h5>  
+                  <h5 className="team">Muhammad Bilal Yousuf|Owner<br></br><p className="Designation">Lead Software Engineer|Aspiring AI Specilist</p> </h5>  
                   <Card className="Tilt-inner" id={card.id} key={card.id} title={<img src={card.title} alt="team"/>}/>
                   </Tilt>
                   )

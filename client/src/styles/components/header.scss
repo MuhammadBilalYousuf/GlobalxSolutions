@@ -12,6 +12,10 @@
       width: 100%;
       object-fit: cover;
       z-index: 1;
+    @include media("<=phone") {
+      height: 50%;
+      width: 50%;
+    }
     }
   }
   .nav-toggle {

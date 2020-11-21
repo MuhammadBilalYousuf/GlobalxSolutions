@@ -40,12 +40,14 @@ const Header = ({ history, dimensions }) => {
           <div className='logo'>
           <NavLink to='/' exact>
             {caseStudies.map(caseItem => (
+               <span>
                 <img
                   src={require(`../assets/${caseItem.img}.png`)}
                   alt="GlobalxSolutions-Logo"
                   id={caseItem.id}
                   key={caseItem.id}
                 />
+                </span>
           ))}
             </NavLink>
           </div>
