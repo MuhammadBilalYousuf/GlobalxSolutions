@@ -67,7 +67,7 @@ const Product = () => {
 			  <section className="career-heading">
 			<p className="item-depart">GlobalxSolutions Software House</p>
             <p className="item-description">
-			GlobalxSolutions Software house is a team of young and passionate software engineers having different exposure of software development industry. We provide cutting edge software solutions to all size of businesses. We have helped 60 plus companies and enterprises clients worldwide in the last two years. 
+			GlobalxSolutions Software house is a team of young and passionate software engineers having different exposure of software development industry. We provide cutting edge software solutions to all size of businesses. We have helped 30 plus companies and enterprises clients worldwide in the last three years. 
 			Each department possesses experienced and specified team to deliver the services. With the combination of technology, know-how and great communication and creative ideas, we are able to provide complete solutions under one roof for our esteemed clients. 
 		    </p>
 			<h2 className="item-title">GlobalxSolutions develop high-tech Web solutions for Big & Small scale businesses.</h2>

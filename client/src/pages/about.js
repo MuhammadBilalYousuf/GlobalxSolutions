@@ -143,7 +143,7 @@ const About = () => {
           <div>
             <p className="item-title">Who We Are</p>
             <p className="item-description">
-            GlobalxSolutions was established with the aim of providing state-of-art and the latest technological services in the shape of software production services, digital marketing and video production solutions under one umbrella. Having 10 years of experience in providing solutions to business organizations, the founder vowed to go beyond the traditional marketing modus of Operandi and challenge the national and international boundaries to provide software development, digital marketing, media production and services.
+            GlobalxSolutions was established with the aim of providing state-of-art and the latest technological services in the shape of software production services, digital marketing and video production solutions under one umbrella. Having years of experience in providing solutions to business organizations, the founder vowed to go beyond the traditional marketing modus of Operandi and challenge the national and international boundaries to provide software development, digital marketing, media production and services.
             </p>
             <p className="item-description">
             We are living in a rapidly changing environment and it is a cumbersome task for the companies like us to keep abreast ourselves of the latest clientele demand along with the modern technology and we love to embrace transformations because we transform the brands into modern technology. 
