@@ -53,12 +53,15 @@ const Navigation = () => {
                 <li>Gambas Cres, #01-11 50, Singapore 757022.</li>
               </ul>
               <ul className='nav-info' style={{marginLeft: '30px'}}>
-              <li className='nav-info-label'>Karachi Office</li>
+              <li className='nav-info-label'>New York Office</li>
               <br/>
-                <li>Office # M-2, 43C Tauheed Commercial, DHA Phase V.</li>
+                <li>513 Carlls Path, Deer Park, NY.</li>
+                
               </ul>
               <ul className='nav-info nav-info-talk' style={{marginLeft: '30px'}}>
                 <li className='nav-info-label'>Let’s talk this out</li>
+                <br/>
+                <li>+1 (631) 882-7729</li>
                 <br/>
                 <li>info@globalxsolutions.com</li>
                 <br/>
