@@ -3,6 +3,7 @@ import "../styles/pages/audit.scss";
 import anime from "animejs";
 import axios from 'axios';
 import jsPDF from 'jspdf';
+import Footer from "../components/footer";
 
 class CaseStudies extends React.Component {
     constructor(){
@@ -285,7 +286,37 @@ class CaseStudies extends React.Component {
                     </div>
                     </div>
          </div>
+         <Footer />
+          <div className="cursor">
+          <div className="cursor-media">
+            <video
+              src={require(`../homepage/videos/websites.mp4`)}
+              preload="auto"
+              autoPlay
+              muted
+              loop
+              id="websites"
+            ></video>
+            <video
+              src={require(`../homepage/videos/apps.mp4`)}
+              preload="auto"
+              autoPlay
+              muted
+              loop
+              id="apps"
+            ></video>
+            <video
+              src={require(`../homepage/videos/branding.mp4`)}
+              preload="auto"
+              autoPlay
+              muted
+              loop
+              id="branding"
+            ></video>
+          </div>
+          </div>
          </div>
+               
       );
     }
   }

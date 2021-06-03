@@ -2,6 +2,7 @@ import React from 'react';
 import "../styles/pages/careers.scss";
 import career1 from "../assets/career1.png";
 import career2 from "../assets/career2.jpg";
+import Footer from "../components/footer";
 
 // Jobs
 function Card(props) {
@@ -130,32 +131,27 @@ class SwipeButton extends React.Component {
 const Careers = () => {
  return(
    <>
-   <div className="page">
-    <div className="container">
-      <div className="row">
-      <section className="career-heading">
-            <h2 className="item-title">Evolve together!</h2>
-            <p className="item-description">
-            Our team consists of personalities who love to work together since many years. As we grow and mature, it becomes increasingly clear that we need talented people that also culturally fit.
-            </p>
+     <section className="about">
+        <div className="container">
+          <div className="hero-inner">
+            <div className="hero-inner-banner">
+              <div className="hero-inner-col">
+                <div className="hero-inner-title">
+                  <h1>Evolve together!</h1>
+                </div>
+                <br></br>
+                <div className="hero-inner-title">
+                  <h3>
+                  Our team consists of personalities who love to work together since many years. As we grow and mature, it becomes increasingly clear that we need talented people that also culturally fit.
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-      </div>
-      </div>
-    </div>
-   <div className="page">
-    <div className="container-fluid">
-      <div className="row">
-      <div className="career-img">
-        <div className="career-image">
-        <img src={career1} alt="careers"/>
-        </div>
-        <div className="career-image">
-        <img src={career2} alt="careers"/>
-        </div>
-      </div>
-      </div>
-      <div className="career-jobs">
-      <Card 
+      <div className="container">
+      {/* <Card 
       title="Graphics Designer"  
     details="Do you have a keen eye, an extraordinary sense of graphic balance and a strong love for typography? Apply your creative talents to the creation of innovative and effective digital experiences."  
     hastags="#2to3Years #Morning #karachi"
@@ -168,7 +164,7 @@ const Careers = () => {
     hastags="#2to3Years #Morning #karachi"
     apply={ 
       <SwipeButton />
-      } />
+      } /> */}
       <Card title="International Sales"  
     details="If you are passionate about sales and earn a handsome salary with lucrative commission. we are here to train you but you must passionate about learning and sales." 
     hastags="#1+Years #Morning #karachi"
@@ -181,9 +177,39 @@ const Careers = () => {
     apply={
       <SwipeButton />
       } />
-      </div>
     </div>
-   </div>
+  <br></br>
+  <br></br>
+  <br></br>
+  <Footer />
+    <div className="cursor">
+      <div className="cursor-media">
+            <video
+              src={require(`../homepage/videos/websites.mp4`)}
+              preload="auto"
+              autoPlay
+              muted
+              loop
+              id="websites"
+            ></video>
+            <video
+              src={require(`../homepage/videos/apps.mp4`)}
+              preload="auto"
+              autoPlay
+              muted
+              loop
+              id="apps"
+            ></video>
+            <video
+              src={require(`../homepage/videos/branding.mp4`)}
+              preload="auto"
+              autoPlay
+              muted
+              loop
+              id="branding"
+            ></video>
+          </div>
+    </div>
     </>
  )
 }

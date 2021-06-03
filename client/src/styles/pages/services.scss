@@ -105,4 +105,20 @@
   display: flex;
   height: 100%;
   /* width: 90%; */
+}
+
+.wrapper h1{
+  font-size: 28px;
+  font-weight: 700;
+  @media (max-width: 599px) {
+    text-align: left;
+    padding: 20px;
   }
+}
+
+.research-service-icon{
+  width: 25%;
+}
+.service-icon{
+  width: 35%;
+}

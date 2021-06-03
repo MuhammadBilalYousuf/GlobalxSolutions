@@ -1,6 +1,6 @@
 .cases {
-  height: 50vh;
-  height: calc(var(--vh, 1vh) * 50);
+  // height: 50vh;
+  // height: calc(var(--vh, 1vh) * 50);
   .cases-navigation {
     position: absolute;
     bottom: 0px;
@@ -38,7 +38,6 @@
     }
     .case {
       position: relative;
-      // background: $black;
       background: #ffffff;
       cursor: pointer;
       &:hover {
@@ -47,13 +46,13 @@
         }
       }
       .case-details {
-        width: 33.3333vw;
-        height: 50vh;
-        height: calc(var(--vh, 1vh) * 50);
+        width: 33vw;
+        height: 20vh;
+        height: calc(var(--vh, 1vh) * 60);
         display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 32px;
+        // padding: 10px;
         box-sizing: border-box;
         z-index: 1;
         position: relative;
@@ -64,37 +63,39 @@
           padding: 16px;
         }
         span {
+          text-align: center;
           margin-top: 20%;
-          // font-size: 1.6rem;
+          padding: 20px;
           opacity: 0.8;
-          color: #fff;
+          color: #000000;
           position: absolute;
-          // font-weight: 600;
           @include media("<=desktop", ">tablet") {
             font-size: 1.0rem;
           }
           @include media("<=phone") {
+            padding: 10px;
             font-size: 1.0rem;
             line-height: 1.2rem;
+            text-align: left;
           }
         }
         h2 {
-          font-size: 1.0rem;
-          // line-height: 3.4rem;
+          text-align: center;
+          font-size: 2.0rem;
           width: 100%;
-          // margin-top: 16px;
           position: absolute;
           bottom: 0;
-          color: #ffffff;
+          color: #000000;
           font-weight: bolder;
           @include media("<=desktop", ">tablet") {
-            font-size: 1.2rem;
-            // line-height: 2.4rem;
+            font-size: 2rem;
           }
           @include media("<=phone") {
-            font-size: 1.2rem;
+            padding: 10px;
+            font-size: 2rem;
             line-height: 2.2rem;
             margin-top: 8px;
+            text-align: left;
           }
         }
         img{
@@ -108,10 +109,12 @@
         }
       }
       .case-image {
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
+        top: 10%;
+        left: 25%;
+        width: 45%;
+        height: 45%;
+        align-items: center;
+        justify-content: center;
         overflow: hidden;
         position: absolute;
         // opacity: 0.65;
@@ -119,7 +122,7 @@
         img {
           height: 100%;
           width: 100%;
-          object-fit: cover;
+          object-fit: contain;
         }
       }
     }

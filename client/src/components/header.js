@@ -40,7 +40,7 @@ const Header = ({ history, dimensions }) => {
           <div className='logo'>
           <NavLink to='/' exact>
             {caseStudies.map(caseItem => (
-               <span>
+               <span key={caseItem.id}>
                 <img
                   src={require(`../assets/${caseItem.img}.png`)}
                   alt="GlobalxSolutions-Logo"

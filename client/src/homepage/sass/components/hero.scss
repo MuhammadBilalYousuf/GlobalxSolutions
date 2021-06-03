@@ -1,0 +1,187 @@
+.hero {
+  background: #fff;
+  .container {
+    padding: 0 20px;
+    .hero-inner {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-self: center;
+
+      .hero-inner-col {
+        &.left {
+          display: none;
+        }
+        &.right {
+        }
+        .hero-inner-title {
+          z-index: 11;
+          text-align: left;
+          position: relative;
+          h1 {
+            text-align: left;
+            margin: 0;
+            font-weight: 700;
+            @media (min-width: 1800px) {
+              font-size: 28px;
+            }
+          }
+          h3 {
+            text-align: left;
+            margin: 0;
+            font-weight: 500;
+            margin-bottom: 50px;
+            @media (min-width: 1800px) {
+              font-size: 28px;
+            }
+          }
+        }
+        .btn-row {
+          display: flex;
+          opacity: 1;
+          margin-left: -5px;
+          .request {
+            margin: 5px;
+            background: #0091d0;
+            width: 25%;
+            border-radius: 1px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #fff;
+            text-transform: capitalize;
+            font-weight: 600;
+          }
+          .schedule {
+            margin: 5px;
+            background: #fff;
+            border: 1px solid black;
+            width: 25%;
+            border-radius: 1px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #0091d0;
+            text-transform: capitalize;
+            font-weight: 600;
+          }
+        }
+        @media only screen and (max-width: 600px) {
+          .btn-row {
+            display: block;
+            opacity: 1;
+            .request {
+              margin: 5px;
+              background: #fff;
+              border: 1px solid black;
+              width: 98%;
+              border-radius: 1px;
+              height: 60px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+              font-size: 1.1rem;
+              color: #0091d0;
+              text-transform: capitalize;
+              font-weight: 600;
+            }
+            .schedule {
+              margin: 5px;
+              background: #0091d0;
+              width: 98%;
+              border-radius: 1px;
+              height: 60px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-decoration: none;
+              font-size: 1.1rem;
+              color: #fff;
+              text-transform: capitalize;
+              font-weight: 600;
+            }
+          }
+        }
+        .btn-scroll-row {
+          padding-top: 2%;
+          text-align: left;
+        }
+        @media only screen and (max-width: 600px) {
+          .btn-scroll-row {
+            padding-top: 5%;
+            text-align: center;
+          }
+        }
+        .hero-inner-links {
+          z-index: 11;
+          position: relative;
+          display: flex;
+          .hero-inner-link-item {
+            .hero-inner-link-item-padding {
+              position: relative;
+              &:before {
+                content: "";
+                display: block;
+                position: absolute;
+                top: -30vh;
+                bottom: -30vh;
+                left: 0;
+                right: 0;
+              }
+            }
+            a {
+              padding: 12px 22px;
+              display: inline-block;
+              position: relative;
+              overflow: hidden;
+              text-decoration: none;
+              color: transparent;
+              transition: color 0.3s, -webkit-text-stroke 0.3s;
+              -webkit-text-stroke: 1px #000;
+              &:hover {
+                color: black;
+                -webkit-text-stroke: 1px transparent;
+              }
+              span {
+                line-height: 1.1;
+                font-weight: 700;
+                text-shadow: none;
+                font-size: 6.8vw;
+                @media (max-width: 599px) {
+                  font-size: 6vw;
+                }
+              }
+            }
+            &:first-child {
+              a {
+                padding-left: 0;
+              }
+            }
+            &:last-child {
+              a {
+                padding-right: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    .hero-inner-footer {
+      .hero-inner-footer-text {
+        p {
+          font-size: 2.8rem;
+          margin-top: -90px;
+          width: 70%;
+          line-height: 4.4rem;
+        }
+      }
+    }
+  }
+}

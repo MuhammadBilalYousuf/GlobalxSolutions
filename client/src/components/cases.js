@@ -1,49 +1,50 @@
-import React from "react";
+import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import ArrowRight from  "../assets/next.svg";
+import ArrowRight from  '../assets/next.svg';
 
 const caseStudies = [
   {
     id: 1,
-    href: '/digital',
-    title: "DIGITAL HOUSE",
-    subtitle: "Our digital team possess broader experience in re-shaping & transforming products into digital frames, your brand’s marketing from bottom to top.",
-    img: "digital"
+    href: '/about-us',
+    title: 'We',
+    subtitle: 'We are technical and open-minded. Work hard regardless of who is or isn’t watching. We build products and bring innovations to the World that converts into client’s profit.',
+    img: 'undraw_programming_2svr'
   },
   {
     id: 2,
-    href: '/software',
-    title: "SOFTWARE HOUSE",
-    subtitle: "Our Software team love to build something unique for Scalable Web & Mobile Applications, perform tasks with cross-platform programming.",
+    href: '/about-us',
+    title: 'Our Mission',
+    subtitle: 'Challenges in every project give us new opportunities for the development. That’s why we’re adaptive and flexible, and keep our internal processes effective.',
     img: [
-     "software"
+     'undraw_interview_rmcf'
     ]
   },
   {
     id: 3,
-    href: '/production',
-    title: "PRODUCTION HOUSE",
-    subtitle: "Our production team carefully study the case and formulate video production plan. We have ideas regarding TVC & DVC for major industries.",
-    img: "production"
+    href: '/about-us',
+    title: 'Our Community',
+    subtitle: 'Everything we do as the company for GlobalxSolutions and our clients helps different communities of software engineers. And we are proud to be part of those essential changes.',
+    img: [
+     'undraw_Work_chat_re_qes4'
+    ]
   }
 ];
 
 const Cases = () => {
   return (
-    <section className='cases'>
+   <section className='cases'>
       <div className='container-fluid'>
         <div className='row'>
           {caseStudies.map(caseItem => (
-                 <Link scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center'})} to={caseItem.href} key={caseItem.id}>
+            <Link scroll={el => el.scrollIntoView({ behavior: 'smooth', block: 'center'})} to={caseItem.href} key={caseItem.id}>
             <div className='case' key={caseItem.id}>
               <div className='case-details'>
+                <h2>{caseItem.title}</h2>
                 <span>{caseItem.subtitle}</span>
-                <h2>{caseItem.title}  <img src={ArrowRight} alt="RightArrow"/></h2>
-                
               </div>
               <div className='case-image'>
                 <img
-                  src={require(`../assets/${caseItem.img}.png`)}
+                  src={require(`../assets/home/${caseItem.img}.svg`)}
                   alt={caseItem.title}
                 />
               </div>

@@ -98,6 +98,35 @@ var cardDescriptions = {
 const App = () => <>
 	<Product />
     <Box />
+	<div className="cursor">
+      <div className="cursor-media">
+        <video
+          src={require(`../homepage/videos/websites.mp4`)}
+          preload="auto"
+          autoPlay
+          muted
+          loop
+          id="websites"
+        ></video>
+        <video
+          src={require(`../homepage/videos/apps.mp4`)}
+          preload="auto"
+          autoPlay
+          muted
+          loop
+          id="apps"
+        ></video>
+        <video
+          src={require(`../homepage/videos/branding.mp4`)}
+          preload="auto"
+          autoPlay
+          muted
+          loop
+          id="branding"
+        ></video>
+      </div>
+    </div>
+   
 </>;
 
 export default App;
