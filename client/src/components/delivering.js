@@ -38,7 +38,7 @@ const Box = () => {
       <ImageCard className="eighth-card" image="careexpress"/>
       <Card className="nineth-card" title="iMotion" description={five} minidescription={minifive}/>
       <ImageCard className="tenth-card" image="imotion"/>
-      <Card className="eleventh-card" title="Kakamega" description={five} minidescription={minifive}/>
+      <Card className="eleventh-card" title="Kakamega" description={six} minidescription={minisix}/>
       <ImageCard className="twelveth-card" image="kakamega"/>
       </div>
       </div>
@@ -71,6 +71,8 @@ var cardMiniDescriptions = {
     minifour:
       "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
     minifive:
+      "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
+    minisix:
       "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
   };
 

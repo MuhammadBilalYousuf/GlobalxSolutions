@@ -122,3 +122,65 @@
 .service-icon{
   width: 35%;
 }
+
+#first-service-box {
+  float:left;
+  color: #000000;
+  font-weight: 500;
+  width:50%;
+  text-align: left;
+}
+#second-service-box {
+  overflow:hidden;
+  color: #000000;
+  font-weight: 500;
+  text-align: left;
+}
+#first-service-box h3{
+  font-size: 1.4rem;
+}
+#second-service-box h3{
+  font-size: 1.4rem;
+}
+#first-service-box h3 img{
+  width: 20%;
+}
+#second-service-box h3 img{
+  width: 20%;
+}
+#first-service-box p{
+  font-size: 1.2rem;
+  border: 1px solid #dadada;
+  padding: 25px 25px 25px 25px;
+  height: 200px;
+  border-radius: 2px;
+}
+#first-service-box p:hover{
+  font-size: 1.2rem;
+  border: 1px solid #0091D0;
+  padding: 25px 25px 25px 25px;
+  height: 200px;
+  border-radius: 2px;
+}
+#second-service-box p{
+  font-size: 1.2rem;
+  border: 1px solid #dadada;
+  padding: 25px 25px 25px 25px;
+  height: 200px;
+  border-radius: 2px;
+}
+#second-service-box p:hover{
+  font-size: 1.2rem;
+  border: 1px solid #0091D0;
+  padding: 25px 25px 25px 25px;
+  height: 200px;
+  border-radius: 2px;
+}
+@media screen and (max-width: 720px) {
+  #first-service-box {
+   float: none;
+   margin-right:0;
+   width:auto;
+   border:0;
+ }
+}
