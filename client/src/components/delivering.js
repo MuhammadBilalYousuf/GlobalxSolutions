@@ -38,8 +38,6 @@ const Box = () => {
       <ImageCard className="eighth-card" image="careexpress"/>
       <Card className="nineth-card" title="iMotion" description={five} minidescription={minifive}/>
       <ImageCard className="tenth-card" image="imotion"/>
-      <Card className="eleventh-card" title="Kakamega" description={six} minidescription={minisix}/>
-      <ImageCard className="twelveth-card" image="kakamega"/>
       </div>
       </div>
     </section>
@@ -56,24 +54,20 @@ var cardDescriptions = {
   four:
     "SINGAPORE",
   five:
-    "MALAYSIA",
-  six:
-    "KENYA",
+    "MALAYSIA"
 };
 
 var cardMiniDescriptions = {
     minione:
       "Beautiful, simple to navigate platform with high quality school spirit products that combine with bulk order system as well as can submit artwork to better understand operational needs.",
     minitwo:
-      "A technology-enabled support system for care at home and in communities. Utilizes best-of-breed technologies, ambient sensors, connected devices, and open APIs.",
+      "A online technology-enabled platform to purchase course with support system for provider to teach from at home and in communities.",
     minithree:
-      "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
+      "High performance training platform for become a qualified Installer with knauf. Our CMS provide secure and easy to handle board.",
     minifour:
-      "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
+      "Attractive platform with Customised booking form where price calculate from origin to destination distance. Record as you go. No green forms.",
     minifive:
-      "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
-    minisix:
-      "Beautiful, simple, award-winning, end-to-end accounting solution for freelancers. Record as you go. Know what you owe. Tax return, done. No green forms.",
+      "Beautiful, simple, end-to-end digital solution web. Did 360 ° branding concept, perfect colorful web that perfectly reflects the brand approach.",
   };
 
 const Solutions = () => {
