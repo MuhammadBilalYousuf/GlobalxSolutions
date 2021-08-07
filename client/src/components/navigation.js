@@ -68,8 +68,6 @@ const Navigation = () => {
           <div className='nav-column'>
             <div className='nav-infos'>
               <ul className='nav-info' style={{marginLeft: '20px'}}>
-              <li className='nav-info-label'>New York Office</li>
-              <li className="nav-info-paragraph">513 Carlls Path, Deer Park, NY.</li>
               <li className='nav-info-label'>Singapore Office</li>
               <li className="nav-info-paragraph">Gambas Cres, #01-11 50, Singapore 757022.</li>  
               <li className='nav-info-label'>Karachi Office</li>
@@ -77,7 +75,6 @@ const Navigation = () => {
               </ul>
               <ul className='nav-info nav-info-talk' style={{marginLeft: '20px'}}>
                 <li className='nav-info-label'>Let’s talk this out</li>
-                <li className="nav-info-paragraph">+1 (631) 882-7729</li>
                 <li className="nav-info-paragraph">+92 (332) 3420840</li>
                 <li className="nav-info-paragraph">info@globalxsolutions.com</li>
                 <li className="nav-info-copywrite"> 2021 © GlobalxSolutions</li>
