@@ -12,7 +12,7 @@ const Header = ({ history, dimensions }) => {
   const caseStudies = [
     {
       id: 1,
-      img: "main-logo"
+      img: "igen-tan"
     }
   ];
   useEffect(() => {
@@ -43,7 +43,7 @@ const Header = ({ history, dimensions }) => {
                <span key={caseItem.id}>
                 <img
                   src={require(`../assets/${caseItem.img}.png`)}
-                  alt="GlobalxSolutions-Logo"
+                  alt="IgenTan"
                   id={caseItem.id}
                   key={caseItem.id}
                 />

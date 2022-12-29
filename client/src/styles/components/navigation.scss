@@ -7,7 +7,7 @@ nav {
   display: none;
   position: fixed;
   overflow: hidden;
-  background: black;
+  background: #dc8a77;
   a {
     position: relative;
     &:after {
@@ -31,7 +31,7 @@ nav {
     }
   }
   .nav-columns {
-    transform: translateY(100px);
+    transform: translateY(120px);
     display: flex;
     padding: 0 32px;
     @include media("<=654px") {
@@ -83,11 +83,11 @@ nav {
           .nav-info-label {
             font-weight: bolder;
             font-size: 1.2rem;
-            opacity: 0.7;
+            opacity: 1;
             @include media("<=phone") {
               font-weight: bolder;
               font-size: 1rem;
-              opacity: 0.7;
+              opacity: 1;
             }
           }
           .nav-info-link{

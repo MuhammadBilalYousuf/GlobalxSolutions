@@ -35,6 +35,7 @@ import FlimsDocumentary from "./pages/flims-documentary";
 import MusicVideos from "./pages/music-videos";
 import EventCoverage from "./pages/event-coverage";
 import Demo from "./pages/demo";
+import ScrollToTop from "react-scroll-to-top";
 
 const routes = [
   { path: "/careers", name: "Careers", Component: Careers },
@@ -113,6 +114,7 @@ function App() {
         ))}
       </div>
       <Navigation />
+      <ScrollToTop smooth />
     </>
   );
 }

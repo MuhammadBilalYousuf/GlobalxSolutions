@@ -254,7 +254,7 @@ class Approach extends React.Component {
             autoPlay
             muted
             loop
-            id="websites"
+            id="entrepreneur"
           ></video>
           <video
             src={require(`../homepage/videos/apps.mp4`)}
@@ -262,7 +262,7 @@ class Approach extends React.Component {
             autoPlay
             muted
             loop
-            id="apps"
+            id="investor"
           ></video>
           <video
             src={require(`../homepage/videos/branding.mp4`)}
@@ -270,7 +270,7 @@ class Approach extends React.Component {
             autoPlay
             muted
             loop
-            id="branding"
+            id="philanthropist"
           ></video>
         </div>
       </div>
